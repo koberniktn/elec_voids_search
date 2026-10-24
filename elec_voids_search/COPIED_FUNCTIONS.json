@@ -1,0 +1,80 @@
+[
+  {
+    "function": "component_labels",
+    "source": "kobernik_voids/src/initial_candidate_comparison.py",
+    "destination": "elec_voids_search/grouping.py",
+    "function_source_sha256": "41a22005ecf8f1e6e4bd604186843ba4ff30ee154c738836c5c5435a724ec1d1"
+  },
+  {
+    "function": "candidate_table",
+    "source": "kobernik_voids/src/initial_candidate_comparison.py",
+    "destination": "elec_voids_search/candidate_tables.py",
+    "function_source_sha256": "e19c8af389503bebf2d77186b2f7dd9b3c5f37825d4604cbd5ccb1c8f68a005f"
+  },
+  {
+    "function": "pbc_distance",
+    "source": "kobernik_voids/src/all_versions_of_scripts/easy_voids_screening.py",
+    "destination": "elec_voids_search/symmetry.py",
+    "function_source_sha256": "7baef2132714cb627bf49d4ceeb45d29f199861ed8c3824ad0b97aae45505281"
+  },
+  {
+    "function": "find_local_minima",
+    "source": "kobernik_voids/src/all_versions_of_scripts/void_search.py",
+    "destination": "elec_voids_search/void_search.py",
+    "function_source_sha256": "68e995246b4574fa9ca1eb6afb37d2d9975e0314078a08475021cf6768bd73a1"
+  },
+  {
+    "function": "cluster_minima",
+    "source": "kobernik_voids/src/all_versions_of_scripts/void_search.py",
+    "destination": "elec_voids_search/void_search.py",
+    "function_source_sha256": "0f40850e56b61b9f54673625fe1a53baaf9bef727cad390eb593f5f952fe51d2"
+  },
+  {
+    "function": "generate_grid",
+    "source": "kobernik_voids/src/all_versions_of_scripts/easy_voids_screening.py",
+    "destination": "elec_voids_search/grid_search.py",
+    "function_source_sha256": "4ab54ca5b9d571059a46499016f82a23f9e62ee4bb82d1abf680b6a008f7748c"
+  },
+  {
+    "function": "oxidized_structure",
+    "source": "kobernik_voids/src/all_versions_of_scripts/shannon_radii.py",
+    "destination": "elec_voids_search/shannon_radii.py",
+    "function_source_sha256": "f257d010fa7b3a62bddb75356c35b845e1049a114a345e3c7ed04b11ba52bb32"
+  },
+  {
+    "function": "crystalnn_finder",
+    "source": "kobernik_voids/src/all_versions_of_scripts/shannon_radii.py",
+    "destination": "elec_voids_search/shannon_radii.py",
+    "function_source_sha256": "ea484ffdaee28786f70fd1cd5461c69594ee4b253d2d328916728e811c1e4cb2"
+  },
+  {
+    "function": "shannon_radius",
+    "source": "kobernik_voids/src/all_versions_of_scripts/shannon_radii.py",
+    "destination": "elec_voids_search/shannon_radii.py",
+    "function_source_sha256": "6bb211b8d904fc1357537176ff8f4869f5e877b7166644bca3feb97d0dafdc98"
+  },
+  {
+    "function": "prepare_shannon_radii",
+    "source": "kobernik_voids/src/all_versions_of_scripts/shannon_radii.py",
+    "destination": "elec_voids_search/shannon_radii.py",
+    "function_source_sha256": "d9bc6ee249e465e2db3d63422c8a2331982d555e8352ce249fbbc4e319829f5e"
+  },
+  {
+    "function": "get_cn_for_ion",
+    "source": "kobernik_voids/src/all_versions_of_scripts/site_atomic_data.py",
+    "destination": "elec_voids_search/site_atomic_data.py",
+    "function_source_sha256": "64663f36ab3affa85eeb60fd08e56928fe89ba15048983a29a49ca8cfc375c38"
+  },
+  {
+    "function": "get_shannon_radius",
+    "source": "kobernik_voids/src/all_versions_of_scripts/site_atomic_data.py",
+    "destination": "elec_voids_search/site_atomic_data.py",
+    "function_source_sha256": "afa65b7c1e9c174f094af385a2060e3f3372f0ead9353a18ee6bfb83db83630a"
+  },
+  {
+    "function": "get_site_atomic_data",
+    "source": "kobernik_voids/src/all_versions_of_scripts/site_atomic_data.py",
+    "destination": "elec_voids_search/site_atomic_data.py",
+    "function_source_sha256": "363d38560921f292011d500a32cbfd3629c11583573f8bc563660f6b8fdfda96"
+  }
+]
