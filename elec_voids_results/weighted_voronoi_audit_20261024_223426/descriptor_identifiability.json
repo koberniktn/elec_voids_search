@@ -1,0 +1,21 @@
+{
+  "control": "cis_trans_Cl2O4_octahedral_shell",
+  "Cl_center_Cl_angle_cis_deg": 90.0,
+  "Cl_center_Cl_angle_trans_deg": 180.0,
+  "expected_chemical_arrangements": "different",
+  "current_result": {
+    "similar": true,
+    "coordination_score": 0.0,
+    "distance_score": 7.401486830834376e-16,
+    "size_score": 0.0,
+    "shape_score": 0.0,
+    "combined_score": 2.5905203907920316e-16,
+    "primary_score": 7.401486830834376e-16,
+    "maximum_block_score": 7.401486830834376e-16,
+    "primary_distance_difference_A": 1.4802973661668753e-16,
+    "full_distance_difference_A": 1.4802973661668753e-16,
+    "primary_angular_difference_deg": 0.0,
+    "reason": "similar_environment"
+  },
+  "explanation": "Global angle distribution ignores which element forms each angle; per-element radial profiles and fractions are equal."
+}

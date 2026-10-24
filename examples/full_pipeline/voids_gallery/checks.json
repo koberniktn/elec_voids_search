@@ -1,0 +1,18 @@
+{
+  "unit_tests": {
+    "passed": true,
+    "n_tests": 14
+  },
+  "notebook_executed": true,
+  "notebook_errors": 0,
+  "visualization_files_read_back": 126,
+  "marker_counts_match_tables": true,
+  "cif_check": "CIF rows; raw coincident candidates are preserved, not merged into partial occupancies",
+  "sequential_orders_same_counts": true,
+  "all_reference_sites_recovered_after_both": true,
+  "coordination_refresh": {
+    "updated_visualization_files_read_back": 28,
+    "previous_stages_and_li_files_unchanged": true,
+    "no_indeterminate_coordination": true
+  }
+}

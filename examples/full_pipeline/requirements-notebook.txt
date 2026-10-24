@@ -1,0 +1,5 @@
+-r ../../elec_voids_search/requirements.txt
+jupyterlab
+nbclient
+nbformat
+ipykernel

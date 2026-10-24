@@ -35,7 +35,7 @@ class SearchConfig:
     geometry_probe_radius_override_A: float | None = None
     export_cif: bool = False
     geometry_probe_spin: str = ""
-    geometry_overlap_tolerance_A: float = 0.005
+    geometry_overlap_tolerance_percent: float = 10.0
     geometry_numeric_tolerance_A: float = 1e-7
     geometry_neighbor_cutoff_A: float = 12.0
     geometry_oxidation_states: dict = field(default_factory=dict)
@@ -82,8 +82,9 @@ class SearchConfig:
                 or not (self.symmetry_angle_tolerance_deg == -1
                         or 0 < self.symmetry_angle_tolerance_deg <= 180)):
             raise ValueError("symmetry_angle_tolerance_deg must be -1 or in (0, 180]")
-        if not math.isfinite(self.geometry_overlap_tolerance_A) or self.geometry_overlap_tolerance_A < 0:
-            raise ValueError("geometry_overlap_tolerance_A must be finite and nonnegative")
+        if (not math.isfinite(self.geometry_overlap_tolerance_percent)
+                or not 0 <= self.geometry_overlap_tolerance_percent < 100):
+            raise ValueError("geometry_overlap_tolerance_percent must be finite and in [0, 100)")
         for name in ("geometry_oxidation_states", "geometry_host_radius_overrides_A"):
             values = getattr(self, name)
             if not isinstance(values, dict):
@@ -107,6 +108,10 @@ class SearchConfig:
 
     def to_dict(self):
         return asdict(self)
+
+    def geometry_allowed_overlap_A(self, probe_radius_A):
+        """Convert the user tolerance (% of the local probe radius) to Å."""
+        return probe_radius_A * self.geometry_overlap_tolerance_percent / 100.
 
     def grid_params(self):
         return {

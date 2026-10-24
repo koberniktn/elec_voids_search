@@ -1,0 +1,7 @@
+path,step,filter,n_input,n_passed,n_rejected,n_indeterminate
+coordination,1,coordination,3,1,2,0
+li_distance,1,li_distance,3,1,2,0
+coord_then_li,1,coordination,3,1,2,0
+coord_then_li,2,li_distance,1,1,0,0
+li_then_coord,1,li_distance,3,1,2,0
+li_then_coord,2,coordination,1,1,0,0

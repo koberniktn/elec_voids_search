@@ -1,0 +1,9 @@
+source_atom_number_1based,source_species,frac_x,frac_y,frac_z,resolved_state,target_cif_label
+145,Na_marker,0.5000000000000001,0.0,0.875,occupied_Li,Li9
+146,Na_marker,0.0,0.5,0.6250000000000001,intentionally_empty,
+147,Na_marker,0.0,0.5000000000000001,0.875,intentionally_empty,
+148,Na_marker,0.5,0.0,0.3750000000000001,intentionally_empty,
+149,Na_marker,0.5,0.0,0.6250000000000001,intentionally_empty,
+150,Na_marker,0.0,0.5000000000000001,0.125,intentionally_empty,
+151,Na_marker,0.0,0.5,0.375,occupied_Li,Li10
+152,Na_marker,0.5,1e-16,0.125,intentionally_empty,

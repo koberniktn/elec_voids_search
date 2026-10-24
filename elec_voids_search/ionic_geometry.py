@@ -109,7 +109,6 @@ def occupied_probe_controls(structure, sites, settings):
     """Native occupied-ion controls, excluding only the central site."""
     radii = sites.radius_A.to_numpy(dtype=float)
     rows = []
-    tolerance = settings.geometry_overlap_tolerance_A + settings.geometry_numeric_tolerance_A
     for index, site in enumerate(structure):
         if site.specie.symbol != settings.probe_element:
             continue
@@ -117,6 +116,8 @@ def occupied_probe_controls(structure, sites, settings):
         if charge != settings.probe_oxidation_state:
             continue
         probe_radius = radii[index]
+        allowed_overlap = settings.geometry_allowed_overlap_A(probe_radius)
+        tolerance = allowed_overlap + settings.geometry_numeric_tolerance_A
         neighbors = structure.get_neighbors(site, settings.geometry_neighbor_cutoff_A)
         clearances = [float(n.nn_distance) - radii[int(n.index)] for n in neighbors
                       if np.isfinite(radii[int(n.index)])]
@@ -130,8 +131,11 @@ def occupied_probe_controls(structure, sites, settings):
         rows.append(dict(site_index=index, probe_element=settings.probe_element,
                          probe_oxidation_state=charge, probe_coordination=sites.iloc[index].coordination,
                          probe_radius_A=probe_radius, free_radius_A=free_radius,
+                         geometry_allowed_overlap_A=allowed_overlap,
+                         geometry_allowed_overlap_percent=settings.geometry_overlap_tolerance_percent,
                          geometry_margin_A=margin, geometry_status=status,
                          frac_x=site.frac_coords[0], frac_y=site.frac_coords[1], frac_z=site.frac_coords[2]))
     return pd.DataFrame(rows, columns=["site_index", "probe_element", "probe_oxidation_state",
-        "probe_coordination", "probe_radius_A", "free_radius_A", "geometry_margin_A",
+        "probe_coordination", "probe_radius_A", "free_radius_A", "geometry_allowed_overlap_A",
+        "geometry_allowed_overlap_percent", "geometry_margin_A",
         "geometry_status", "frac_x", "frac_y", "frac_z"])

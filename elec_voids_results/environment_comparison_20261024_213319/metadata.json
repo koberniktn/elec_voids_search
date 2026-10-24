@@ -1,0 +1,41 @@
+{
+  "baseline_unchanged": true,
+  "saved_results_unchanged": true,
+  "focused_checks_passed": true,
+  "previous_stages_rerun": false,
+  "primary_source": "/Users/irinabrodyagina/Desktop/\u0420\u041d\u0424_\u043f\u043e\u0438\u0441\u043a_\u043f\u043e\u0440/elec_voids_results/probe_separation_20261024_205323",
+  "diagnostic_LATP_source": "/Users/irinabrodyagina/Desktop/\u0420\u041d\u0424_\u043f\u043e\u0438\u0441\u043a_\u043f\u043e\u0440/elec_voids_results/pipeline_compact_20261024_200915",
+  "new_method_settings": {
+    "neighbor_cutoff_A": 6.0,
+    "shell_distance_ratio": 1.25,
+    "radial_rms_tolerance_A": 0.15,
+    "angle_rms_tolerance_deg": 12.0,
+    "aligned_rms_tolerance_A": 0.25,
+    "maximum_exact_permutations": 40320,
+    "allow_reflection": true,
+    "symmetry_symprec_A": 0.1,
+    "numeric_tolerance": 1e-08
+  },
+  "legacy_rtol": 0.4,
+  "external_radial_threshold": 0.95,
+  "source_sha256": {
+    "kobernik_voids/method_evaluation/environment_comparison/legacy_functions.py": "a9dec6846d214214406c417ae82c97766fa68382722db9b9bcd7d281b3a93869",
+    "kobernik_voids/method_evaluation/environment_comparison/run_comparison.py": "1f2f79a28b0d6b1428fb14bc285cf29a5f18b8bee7e8dbbfcff036daba9e7391",
+    "elec_voids_search/environment_matching.py": "9430c3c6bbfed066951983fe414deda87af476e141eab08b9e8d4de8bd359f10",
+    "kobernik_voids/src/all_versions_of_scripts/site_atomic_data.py": "5aae2237e9b81ef0497b840412b6ffa8efa7f7f97fe622fc497cefdfb7a3c8cd",
+    "kobernik_voids/src/all_versions_of_scripts/shannon_radii.py": "76dba62dcefb6f38052f5dbfa28d5a78cc2da403b57c871543a427a03fc721a0",
+    "kobernik_voids/src/all_versions_of_scripts/voronoi_structure_analysis_atomic_radii.py": "f0411f3a0a72ad7273942e19557b61f6e54e719af3a6002781db7c5a519010a4",
+    "kobernik_voids/src/all_versions_of_scripts/strong_voids_screening.py": "ee9dc82c52802fe77a039829a0d7d99087e82ec4de121846c7deb639b3714c5e",
+    "kobernik_voids/src/all_versions_of_scripts/easy_voids_screening.py": "dd0742d7781a1ae118034ec43977c71472be9575a0a4c6979b07083eed4dc349",
+    "kobernik_voids/src/all_versions_of_scripts/voronoi_structure_analysis_shannon_radii.py": "d41282f9878ef8154abc7ba992304f915de94c3f80dab0ec7d577b83a8029283",
+    "kobernik_voids/src/all_versions_of_scripts/void_search.py": "8329f0bafd79e29ebf8573b08f959555d5ebbfec5b52c7c776f6313c2092e5dd",
+    "kobernik_voids/src/all_versions_of_scripts/voronoi_site_descriptors.py": "db01ed3a9d3900ce2ee870457936798687182a4f9e07824d32b114441c207e78",
+    "kobernik_voids/src/all_versions_of_scripts/voronoi_site_descriptors_counts.py": "45220cfa81ad29fc8e84e86561e01bc62aa3f76a3a457da9966fb180266a594a",
+    "kobernik_voids/method_evaluation/environment_comparison/diagnose_comparison.py": "4334af365275f5c9d5efc3baf9fc636f3fa4c16eb11b7187b6bf781e7e5d70b2",
+    "kobernik_voids/method_evaluation/environment_comparison/diagnose_latp_shapes.py": "bafd717b574d5bfddbf578040dc851ed4173a7494e7cc6666abf550e6f54915e",
+    "kobernik_voids/method_evaluation/environment_comparison/recheck_strong_supercell.py": "43ce46c073e661f06ac87b0a1cd353cba2650add3f9b495e18854636d64b41ee",
+    "kobernik_voids/method_evaluation/environment_comparison/validate_results.py": "4faac185130e6e54ecbcfd9390fb2bae26639764ea42f4e4be9c60d9c37bcfb7",
+    "kobernik_voids/method_evaluation/environment_comparison/check_legacy_cell_representation.py": "474f22b48c6da53dcc0ba87005ed126524246ec230fa5732663dc777c451550b"
+  },
+  "strong_reference_context": "Exact legacy 2x2x2 cell for both references and inserted probes; native distances unchanged, numerical face topology explicitly rechecked."
+}

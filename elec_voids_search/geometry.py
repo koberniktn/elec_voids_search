@@ -20,13 +20,14 @@ def screen_geometry(structure, nonequivalent, settings):
         raise ValueError("Nonfinite host radius: supply a radius override")
     point_geometry = make_point_geometry(structure, dict(enumerate(radii)))
     probe_radius = ProbeRadiusCalculator(charged, settings)
-    tolerance = settings.geometry_overlap_tolerance_A + settings.geometry_numeric_tolerance_A
 
     def evaluate(point):
         free_radius, nearest_distance, limiting_atom = point_geometry(point)
         probe = probe_radius(point)
         if not np.isfinite(probe['probe_radius_A']):
             raise ValueError('Nonfinite probe radius: supply geometry_probe_radius_override_A')
+        allowed_overlap = settings.geometry_allowed_overlap_A(probe['probe_radius_A'])
+        tolerance = allowed_overlap + settings.geometry_numeric_tolerance_A
         required = settings.geometry_minimum_fit_fraction * probe['probe_radius_A']
         margin = free_radius - required
         strict_margin = free_radius - probe['probe_radius_A']
@@ -38,7 +39,8 @@ def screen_geometry(structure, nonequivalent, settings):
                     full_radius_margin_A=strict_margin, geometry_status=status,
                     full_radius_status=strict_status,
                     strict_zero_overlap_fit=bool(strict_margin >= -settings.geometry_numeric_tolerance_A),
-                    geometry_allowed_overlap_A=settings.geometry_overlap_tolerance_A,
+                    geometry_allowed_overlap_A=allowed_overlap,
+                    geometry_allowed_overlap_percent=settings.geometry_overlap_tolerance_percent,
                     geometry_limiting_site_index=int(limiting_atom) if limiting_atom >= 0 else None,
                     geometry_limiting_element=sites.iloc[limiting_atom].element if limiting_atom >= 0 else None,
                     geometry_unresolved_sites=int((~np.isfinite(radii)).sum()),
@@ -62,6 +64,7 @@ def screen_geometry(structure, nonequivalent, settings):
                         'free_radius_A', 'minimum_free_radius_A', 'geometry_status',
                         'full_radius_status', 'geometry_margin_A', 'full_radius_margin_A',
                         'strict_zero_overlap_fit', 'geometry_allowed_overlap_A',
+                        'geometry_allowed_overlap_percent',
                         'free_radius_complete', 'geometry_reason', 'geometry_unresolved_sites',
                         'geometry_limiting_site_index', 'geometry_limiting_element']
     columns = list(dict.fromkeys(list(nonequivalent.columns) + decision_columns))

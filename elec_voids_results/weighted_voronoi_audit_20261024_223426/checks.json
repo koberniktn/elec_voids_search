@@ -1,0 +1,107 @@
+{
+  "previous_results_unchanged": true,
+  "frozen_baseline_unchanged": true,
+  "coordinates_unchanged": true,
+  "sequences_equal_intersection": true,
+  "failures": [],
+  "configuration": {
+    "probe_element": "Li",
+    "probe_oxidation_state": 1,
+    "coordination": {
+      "initial_cutoff_A": 6.0,
+      "maximum_cutoff_A": 24.0,
+      "cutoff_growth": 1.5,
+      "minimum_face_area_A2": 1e-12,
+      "solid_angle_sum_tolerance": 1e-05,
+      "significant_face_fraction": 0.01,
+      "numeric_tolerance": 1e-08,
+      "symmetry_symprec_A": 0.1,
+      "symmetry_angle_tolerance_deg": 5.0,
+      "chemical_fraction_tolerance": 0.15,
+      "effective_cn_tolerance": 1.0,
+      "distance_tolerance_A": 0.2,
+      "size_length_tolerance_A": 0.2,
+      "angular_tolerance_deg": 12.0,
+      "sphericity_tolerance": 0.1,
+      "primary_environment_weight": 0.75,
+      "coordination_block_weight": 0.25,
+      "distance_block_weight": 0.35,
+      "size_block_weight": 0.15,
+      "shape_block_weight": 0.25,
+      "combined_score_limit": 1.0,
+      "maximum_block_score": 2.0,
+      "maximum_primary_score": 1.5,
+      "reference_error_policy": "indeterminate"
+    },
+    "separation": {
+      "probe_element": "Li",
+      "distance_tolerance_A": 0.1,
+      "numeric_tolerance_A": 1e-08,
+      "symmetry_symprec_A": 0.1,
+      "symmetry_angle_tolerance_deg": 5.0
+    },
+    "paths": {
+      "coordination": [
+        "coordination"
+      ],
+      "li_distance": [
+        "li_distance"
+      ],
+      "coord_then_li": [
+        "coordination",
+        "li_distance"
+      ],
+      "li_then_coord": [
+        "li_distance",
+        "coordination"
+      ]
+    },
+    "export_cif": false,
+    "export_rejected_cif": true
+  },
+  "source_sha256": {
+    "elec_voids_search/framework_voronoi.py": "8d366046eb3acc26a8112c13ca870cd438624d18d8e8d2c743fb05796db4e2c4",
+    "elec_voids_search/environment_matching.py": "9430c3c6bbfed066951983fe414deda87af476e141eab08b9e8d4de8bd359f10",
+    "elec_voids_search/symmetry.py": "aac207ecb04d4f9e2fdd182fe800d1382b431959fcf4e05306dd487d90afc246",
+    "elec_voids_search/exports.py": "d743b8b66bdbb3230cede3328c06addc8e8846426ce16ebecdf5457d37705f12",
+    "elec_voids_search/spatial_merging.py": "055e7c54dc437b996ac93d80f40971e17ecd333728292a38d543ee5f0bf07605",
+    "elec_voids_search/site_atomic_data.py": "5aae2237e9b81ef0497b840412b6ffa8efa7f7f97fe622fc497cefdfb7a3c8cd",
+    "elec_voids_search/config.py": "a75a92cd4f1655f5faa39c405790f6cef9eca4a3fce26b8ac6adcbbb2f8c9597",
+    "elec_voids_search/screening_pipeline.py": "7ccc485240aeea5f81841fe9fe0b92a8b453a607126f249432ae3048bf11f31a",
+    "elec_voids_search/candidate_tables.py": "4e09faf67288530204c90a79f7b7070dfde639383b59157d67f71ac362dcd3c6",
+    "elec_voids_search/shannon_radii.py": "76dba62dcefb6f38052f5dbfa28d5a78cc2da403b57c871543a427a03fc721a0",
+    "elec_voids_search/run_search.py": "10f44b3e5cca2d5589d6fef16c6fa5512ba55d5acaa243e93b5ab1f66a10812d",
+    "elec_voids_search/occupied_sites.py": "f61e34a57ba0de669e93e6719d5ca32593c27972043b95d9b0997bd32592fc14",
+    "elec_voids_search/grouping.py": "1c8114b179bb26cc66a41236634ff6215d99df846efd34897dac6dc4ec689c88",
+    "elec_voids_search/final_selection.py": "d43a71c616274ab4817e921ad20c0f968c5c0d0b72b9e71e7df6af3a366033a1",
+    "elec_voids_search/probe_separation.py": "475413aee178e9e5d7e4be58e23d7aaa2d0c07ce6793a475f00681d115aa091c",
+    "elec_voids_search/__init__.py": "3a3afdbcc32d1a17ea466fedd9f74bdb5331a3ca29fc58875d40a64d0250a5e4",
+    "elec_voids_search/radius_geometry.py": "5e2ab7ec5ae5253efc824fb636cba36f57201ff8ee84bea3096a6760437feddc",
+    "elec_voids_search/weighted_voronoi.py": "5c09f027fd873cbf896dcf1e3a52f3c0820fe617565bf46af2c1b78cd8e814b8",
+    "elec_voids_search/periodic_groups.py": "e02921480e798875351d5448e5709048d43f0310bc0e70635fae53113ce457f8",
+    "elec_voids_search/combination.py": "8616cfa480e58ae0d3fabb639a4fdcfa3cc6f0037e244641cdef9bdbf6da2fa5",
+    "elec_voids_search/voronoi_coordination_config.py": "5b661e4296d96063fe133ba9a6ea9b4fab768320e21d4a7ff7b817341baf43cc",
+    "elec_voids_search/voronoi_search.py": "0e6d0a7dac066de0cf6593b8bf7354ec88442132f718992b0b5ec9aa727e086c",
+    "elec_voids_search/grid_search.py": "9786ac3b55eddf20b286b050b6744aa8f27ff7feaf749842ddf8ac7a08368272",
+    "elec_voids_search/geometry.py": "1c2af646c5268efae012e62087d3f41ab5a54182d5fefdb2664a55dbf6a573a1",
+    "elec_voids_search/post_geometry_config.py": "ea4f167aef4d9a60055230836dbec311cec500fb366cc12b75aa5a0a22b29aa8",
+    "elec_voids_search/post_geometry_exports.py": "b68658f15b9d067356ee001350a2d1069eb769cf44727d1ed953a4bf28b4e178",
+    "elec_voids_search/radius_resolution.py": "b19d97c39ec2333ea7e22f694e3cb5074019241c30b77e48d0e930b7ec23cf5f",
+    "elec_voids_search/post_geometry.py": "c1cca459fcebc3b7deeebacb6de7c7c6494f884d32ca4a009e34eafb6f433079",
+    "elec_voids_search/void_search.py": "66c877105cd3d1795dede27294271efe0bb6ba74e6467648a40d6dcf3ead6be7",
+    "elec_voids_search/voronoi_merging.py": "ccb105c613561045822b47ff23cf354016899dc4c94c3322379c9a4e93d0343d",
+    "elec_voids_search/merging.py": "a47d69c7aeb2c74d3e02dc7be7afb0de29746f21da26ea1a98335e74b73f8746",
+    "elec_voids_search/ionic_geometry.py": "6bfc80d8c74b28b0b1b815ab2ab999ea538f22a53f3a94a55339bd464db6b338",
+    "elec_voids_search/continue_screening.py": "d5a9acb2045eb349aaa97c25475439ea6ba1c82a50c6bd9745a01cf0d12f0dc5",
+    "elec_voids_search/voronoi_descriptors.py": "8cddc1c5dac90d92f0b4b206f05c323f933d9b2676ec0aa0aa590d85296555f1",
+    "elec_voids_search/grid_minima.py": "771c2d3f25ceb4feb5a0a532b8255dbc1997d8e4057602544dc95ad25a00ec30",
+    "kobernik_voids/method_evaluation/run_weighted_voronoi_audit.py": "0f9f990b49ef0aba532b73d1612197f12b80af329b490a5d95ca99c1e9a4ea6d",
+    "kobernik_voids/method_evaluation/audit_voronoi_comparison_limits.py": "025ebb3aca4d5887be3351b7ca4b698d8015e5a7db334137d8f1c664d0be4efa"
+  },
+  "unit_tests": {
+    "command": "python -m unittest discover -s elec_voids_search/tests -v",
+    "n_tests": 11,
+    "passed": true
+  },
+  "known_limitation_cis_trans_not_distinguished": true
+}

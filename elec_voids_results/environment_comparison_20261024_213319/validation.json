@@ -1,0 +1,27 @@
+{
+  "focused_positive_and_negative_controls_passed": true,
+  "periodic_representation_invariance": true,
+  "explicit_permutation_budget_status": true,
+  "original_function_formatting_preserved": true,
+  "baseline_sha256_verified": true,
+  "previous_stages_not_rerun": true,
+  "tested_method_candidate_pairs": 320,
+  "primary_method_candidate_pairs": 105,
+  "new_final_stage_api_all_seven_structures": true,
+  "candidate_coordinates_unchanged": true,
+  "final_candidate_ids": {
+    "LATP_sc_integer152_stoichiometric": [],
+    "LLZO_cub_ga": [
+      1129
+    ],
+    "Li10Ge(PS6)2": [],
+    "Li3PO4": [],
+    "LiCl": [],
+    "LiCl_one_Li_vacancy": [
+      28
+    ],
+    "Li3PO4_one_Li_vacancy": [
+      122
+    ]
+  }
+}

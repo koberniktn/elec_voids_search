@@ -1,0 +1,8 @@
+structure,n_references,n_reference_errors,maximum_reference_angle_error,maximum_reference_cutoff_A,maximum_candidate_angle_error,maximum_candidate_cutoff_A
+LATP_sc_integer152_stoichiometric,5,0,1.7763568394002505e-15,6.0,1.7763568394002505e-15,6.0
+LLZO_cub_ga,50,0,1.7763568394002505e-15,6.0,1.7763568394002505e-15,6.0
+Li10Ge(PS6)2,4,0,1.7763568394002505e-15,6.0,1.7763568394002505e-15,6.0
+Li3PO4,2,0,1.7763568394002505e-15,6.0,,
+LiCl,1,0,0.0,6.0,,
+LiCl_one_Li_vacancy,1,0,0.0,6.0,1.7763568394002505e-15,6.0
+Li3PO4_one_Li_vacancy,3,0,1.7763568394002505e-15,6.0,0.0,6.0
