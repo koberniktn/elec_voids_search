@@ -1,0 +1,16 @@
+{
+  "settings": {
+    "probe_element": "Li",
+    "distance_tolerance_A": 0.1,
+    "numeric_tolerance_A": 1e-08,
+    "symmetry_symprec_A": 0.1,
+    "symmetry_angle_tolerance_deg": 5.0
+  },
+  "reference_statistic": "mean_over_all_occupied_sites_of_nearest_other_periodic_probe_distance",
+  "pass_rule": "nearest_distance + distance_tolerance_A + numeric_tolerance_A >= mean_distance",
+  "structure_file": "/Users/irinabrodyagina/Desktop/РНФ_поиск_пор/cif_tests_2/Li3PO4_one_Li_vacancy.cif",
+  "structure_sha256": "edcd2be6c9df40dec9225304ff39056514311f9033fe3922e9f6b5747609cf57",
+  "saved_geometry_source": "/Users/irinabrodyagina/Desktop/РНФ_поиск_пор/elec_voids_results/pipeline_compact_20261024_200915/Li3PO4_one_Li_vacancy/candidates.csv",
+  "saved_geometry_source_sha256": "4972f6f0731065deae29ec978bd8a0284892a96aeda80c99d361e3324676340e",
+  "search_and_geometry_rerun": false
+}

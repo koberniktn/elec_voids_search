@@ -1,0 +1,1142 @@
+{
+  "method": "geometry",
+  "parameters": {
+    "settings": {
+      "grid_resolution_A": 0.2,
+      "grid_search_cutoff_A": 5.0,
+      "grid_symprec_A": 0.1,
+      "grid_minima_window": 3,
+      "grid_relative_max_value_A": null,
+      "grid_r_min_A": 1.0,
+      "grid_empty_framework": false,
+      "grid_verbose": false,
+      "probe_element": "Li",
+      "probe_oxidation_state": 1,
+      "voronoi_image_range": 1,
+      "voronoi_boundary_tolerance": 1e-09,
+      "voronoi_qhull_options": null,
+      "merge_distance_A": 0.1,
+      "merge_representative": "voronoi",
+      "symmetry_symprec_A": 0.1,
+      "symmetry_tolerance_A": 0.1,
+      "symmetry_angle_tolerance_deg": 5.0,
+      "geometry_minimum_fit_fraction": 1.0,
+      "geometry_allow_ionic_fallback": false,
+      "geometry_probe_spin": "",
+      "geometry_overlap_tolerance_A": 0.0,
+      "geometry_numeric_tolerance_A": 1e-07,
+      "geometry_neighbor_cutoff_A": 12.0,
+      "geometry_oxidation_states": {},
+      "geometry_host_radius_overrides_A": {},
+      "geometry_spin": "",
+      "geometry_refine": true,
+      "geometry_refine_radius_A": 0.35,
+      "geometry_refine_maxiter": 100,
+      "geometry_optimizer_tolerance_A": 1e-06
+    },
+    "grid": {
+      "GRID_PARAMS": {
+        "r_min": 1.0,
+        "r_cut": 5.0,
+        "resolution": 0.2,
+        "symprec": 0.1,
+        "empty_framework": false,
+        "verbose": false
+      },
+      "mesh_shape_core": [
+        24,
+        26,
+        30
+      ],
+      "n_grid_samples": 18720,
+      "n_grid_candidates": 26,
+      "resolution_A": 0.2,
+      "min_distance": null,
+      "relative_max_value": null,
+      "minima_window": 3,
+      "probe_atomic_number": 3
+    },
+    "voronoi": {
+      "n_voronoi_raw_vertices": 104,
+      "n_voronoi_candidates": 104,
+      "image_range": 1,
+      "n_periodic_images": 27,
+      "boundary_tolerance_fractional": 1e-09,
+      "qhull_options": null,
+      "distance_merge_applied": false
+    },
+    "stage_order": [
+      "grid_and_voronoi",
+      "combined",
+      "merged",
+      "nonequivalent",
+      "geometry",
+      "geometry_unique"
+    ],
+    "combination_order": [
+      "grid",
+      "voronoi"
+    ],
+    "radius_filter_applied": true,
+    "periodic_grouping": "batched_exact_lattice_distances_same_graph_components"
+  },
+  "coordinate_system": "fractional coordinates of the input cell; Cartesian in angstrom",
+  "lattice_matrix_A": [
+    [
+      4.81341133,
+      0.0,
+      2.947364389132052e-16
+    ],
+    [
+      -3.185291708422718e-16,
+      5.20197613,
+      3.185291708422718e-16
+    ],
+    [
+      0.0,
+      0.0,
+      6.05746678
+    ]
+  ],
+  "host": {
+    "@module": "pymatgen.core.structure",
+    "@class": "Structure",
+    "charge": -1.0,
+    "lattice": {
+      "matrix": [
+        [
+          4.81341133,
+          0.0,
+          2.947364389132052e-16
+        ],
+        [
+          -3.185291708422718e-16,
+          5.20197613,
+          3.185291708422718e-16
+        ],
+        [
+          0.0,
+          0.0,
+          6.05746678
+        ]
+      ],
+      "pbc": [
+        true,
+        true,
+        true
+      ],
+      "a": 4.81341133,
+      "b": 5.20197613,
+      "c": 6.05746678,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 151.67443017472192
+    },
+    "properties": {},
+    "sites": [
+      {
+        "species": [
+          {
+            "element": "Li",
+            "oxidation_state": 1.0,
+            "spin": null,
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.00971606,
+          0.15786496,
+          0.5
+        ],
+        "properties": {},
+        "label": "Li1",
+        "xyz": [
+          0.04676739328695975,
+          0.8212097536834049,
+          3.02873339
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "Li",
+            "oxidation_state": 1.0,
+            "spin": null,
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.50905824,
+          0.32771537,
+          0.25152566
+        ],
+        "properties": {},
+        "label": "Li2",
+        "xyz": [
+          2.4503067000458594,
+          1.7047675321741182,
+          1.523608329767575
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "Li",
+            "oxidation_state": 1.0,
+            "spin": null,
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.00905824,
+          0.67228463,
+          0.24847434
+        ],
+        "properties": {},
+        "label": "Li3",
+        "xyz": [
+          0.04360103504585899,
+          3.4972085978258822,
+          1.5051250602324255
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "Li",
+            "oxidation_state": 1.0,
+            "spin": null,
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.00905824,
+          0.67228463,
+          0.75152566
+        ],
+        "properties": {},
+        "label": "Li4",
+        "xyz": [
+          0.04360103504585899,
+          3.4972085978258822,
+          4.552341719767575
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "Li",
+            "oxidation_state": 1.0,
+            "spin": null,
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.50905824,
+          0.32771537,
+          0.74847434
+        ],
+        "properties": {},
+        "label": "Li5",
+        "xyz": [
+          2.4503067000458594,
+          1.7047675321741182,
+          4.533858450232426
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "P",
+            "oxidation_state": 5.0,
+            "spin": null,
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.50098351,
+          0.82543738,
+          0.5
+        ],
+        "properties": {},
+        "label": "P6",
+        "xyz": [
+          2.4114397031771677,
+          4.293905547569739,
+          3.0287333900000006
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "P",
+            "oxidation_state": 5.0,
+            "spin": null,
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.00098351,
+          0.17456262,
+          0.0
+        ],
+        "properties": {},
+        "label": "P7",
+        "xyz": [
+          0.004734038177168244,
+          0.9080705824302606,
+          5.58931628436901e-17
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "O",
+            "oxidation_state": -2.0,
+            "spin": null,
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.10794221,
+          0.31319798,
+          0.79129757
+        ],
+        "properties": {},
+        "label": "O8",
+        "xyz": [
+          0.5195702565992392,
+          1.6292484159242173,
+          4.793258743369725
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "O",
+            "oxidation_state": -2.0,
+            "spin": null,
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.60306062,
+          0.10647078,
+          0.5
+        ],
+        "properties": {},
+        "label": "O9",
+        "xyz": [
+          2.902778820984825,
+          0.5538584561024814,
+          3.02873339
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "O",
+            "oxidation_state": -2.0,
+            "spin": null,
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.18114191,
+          0.81982067,
+          0.5
+        ],
+        "properties": {},
+        "label": "O10",
+        "xyz": [
+          0.87191052193184,
+          4.264687556220608,
+          3.0287333900000006
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "O",
+            "oxidation_state": -2.0,
+            "spin": null,
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.68114191,
+          0.18017933,
+          0.0
+        ],
+        "properties": {},
+        "label": "O11",
+        "xyz": [
+          3.2786161869318406,
+          0.9372885737793929,
+          2.5814971353575496e-16
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "O",
+            "oxidation_state": -2.0,
+            "spin": null,
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.60794221,
+          0.68680202,
+          0.29129757
+        ],
+        "properties": {},
+        "label": "O12",
+        "xyz": [
+          2.9262759215992395,
+          3.572727714075783,
+          1.7645253533697252
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "O",
+            "oxidation_state": -2.0,
+            "spin": null,
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.10794221,
+          0.31319798,
+          0.20870243
+        ],
+        "properties": {},
+        "label": "O13",
+        "xyz": [
+          0.5195702565992392,
+          1.6292484159242173,
+          1.2642080366302757
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "O",
+            "oxidation_state": -2.0,
+            "spin": null,
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.10306062,
+          0.89352922,
+          0.0
+        ],
+        "properties": {},
+        "label": "O14",
+        "xyz": [
+          0.4960731559848244,
+          4.648117673897519,
+          3.149908417009289e-16
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "O",
+            "oxidation_state": -2.0,
+            "spin": null,
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.60794221,
+          0.68680202,
+          0.70870243
+        ],
+        "properties": {},
+        "label": "O15",
+        "xyz": [
+          2.9262759215992395,
+          3.572727714075783,
+          4.292941426630276
+        ]
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "candidate_id": 3,
+      "source_candidate_id": 3,
+      "frac_x": 0.327325621368653,
+      "frac_y": 0.430343208345879,
+      "frac_z": 0.5,
+      "cart_x_A": 1.575552854495163,
+      "cart_y_A": 2.238635097522877,
+      "cart_z_A": 3.02873339,
+      "nearest_atom_center_A": 1.820881740964196,
+      "source_method": "grid",
+      "merge_cluster_id": 3,
+      "merge_member_count": 1,
+      "merge_representative_candidate_id": 3,
+      "merge_member_candidate_ids": [
+        3
+      ],
+      "merge_source_methods": [
+        "grid"
+      ],
+      "is_merge_representative": true,
+      "symmetry_group_id": 2,
+      "is_symmetry_representative": true,
+      "seed_frac_x": 0.291666666666667,
+      "seed_frac_y": 0.461538461538462,
+      "seed_frac_z": 0.5,
+      "geometry_seed_candidate_id": 3,
+      "geometry_seed_source_method": "grid",
+      "probe_element": "Li",
+      "probe_oxidation_state": 1,
+      "probe_coordination": 6,
+      "probe_radius_A": 0.76,
+      "probe_radius_source": "shannon",
+      "probe_radius_issue": "",
+      "probe_radius_warning": "",
+      "free_radius_A": 0.76476131479785,
+      "minimum_free_radius_A": 0.76,
+      "free_radius_complete": true,
+      "geometry_margin_A": 0.00476131479785,
+      "full_radius_margin_A": 0.00476131479785,
+      "geometry_status": "passed",
+      "full_radius_status": "passed",
+      "geometry_limiting_site_index": 12,
+      "geometry_limiting_element": "O",
+      "geometry_unresolved_sites": 0,
+      "geometry_reason": "ion_fits_radius_model",
+      "refinement_success": true,
+      "refinement_accepted": true,
+      "refinement_message": "Optimization terminated successfully",
+      "refinement_displacement_A": 0.236208636123551
+    },
+    {
+      "candidate_id": 105,
+      "source_candidate_id": 79,
+      "frac_x": 0.377193330470907,
+      "frac_y": 0.557238199954349,
+      "frac_z": 0.999999999996606,
+      "cart_x_A": 1.815586650489097,
+      "cart_y_A": 2.89873981488669,
+      "cart_z_A": 6.057466779979443,
+      "nearest_atom_center_A": 2.037111115199586,
+      "source_method": "voronoi",
+      "merge_cluster_id": 7,
+      "merge_member_count": 2,
+      "merge_representative_candidate_id": 105,
+      "merge_member_candidate_ids": [
+        7,
+        105
+      ],
+      "merge_source_methods": [
+        "grid",
+        "voronoi"
+      ],
+      "is_merge_representative": true,
+      "symmetry_group_id": 5,
+      "is_symmetry_representative": true,
+      "seed_frac_x": 0.375,
+      "seed_frac_y": 0.576923076923077,
+      "seed_frac_z": 0.0,
+      "geometry_seed_candidate_id": 7,
+      "geometry_seed_source_method": "grid",
+      "probe_element": "Li",
+      "probe_oxidation_state": 1,
+      "probe_coordination": 6,
+      "probe_radius_A": 0.76,
+      "probe_radius_source": "shannon",
+      "probe_radius_issue": "",
+      "probe_radius_warning": "",
+      "free_radius_A": 0.831218554999978,
+      "minimum_free_radius_A": 0.76,
+      "free_radius_complete": true,
+      "geometry_margin_A": 0.071218554999978,
+      "full_radius_margin_A": 0.071218554999978,
+      "geometry_status": "passed",
+      "full_radius_status": "passed",
+      "geometry_limiting_site_index": 13,
+      "geometry_limiting_element": "O",
+      "geometry_unresolved_sites": 0,
+      "geometry_reason": "ion_fits_radius_model",
+      "refinement_success": true,
+      "refinement_accepted": true,
+      "refinement_message": "Optimization terminated successfully",
+      "refinement_displacement_A": 0.102943052231582
+    },
+    {
+      "candidate_id": 13,
+      "source_candidate_id": 13,
+      "frac_x": 0.509565766694955,
+      "frac_y": 0.834033385537629,
+      "frac_z": 1.0,
+      "cart_x_A": 2.452749634789634,
+      "cart_y_A": 4.338621763189836,
+      "cart_z_A": 6.057466779999999,
+      "nearest_atom_center_A": 1.981002413285321,
+      "source_method": "grid",
+      "merge_cluster_id": 13,
+      "merge_member_count": 1,
+      "merge_representative_candidate_id": 13,
+      "merge_member_candidate_ids": [
+        13
+      ],
+      "merge_source_methods": [
+        "grid"
+      ],
+      "is_merge_representative": true,
+      "symmetry_group_id": 9,
+      "is_symmetry_representative": true,
+      "seed_frac_x": 0.5,
+      "seed_frac_y": 0.807692307692308,
+      "seed_frac_z": 0.0,
+      "geometry_seed_candidate_id": 13,
+      "geometry_seed_source_method": "grid",
+      "probe_element": "Li",
+      "probe_oxidation_state": 1,
+      "probe_coordination": 4,
+      "probe_radius_A": 0.59,
+      "probe_radius_source": "shannon",
+      "probe_radius_issue": "",
+      "probe_radius_warning": "",
+      "free_radius_A": 0.621002413285321,
+      "minimum_free_radius_A": 0.59,
+      "free_radius_complete": true,
+      "geometry_margin_A": 0.031002413285321,
+      "full_radius_margin_A": 0.031002413285321,
+      "geometry_status": "passed",
+      "full_radius_status": "passed",
+      "geometry_limiting_site_index": 10,
+      "geometry_limiting_element": "O",
+      "geometry_unresolved_sites": 0,
+      "geometry_reason": "ion_fits_radius_model",
+      "refinement_success": true,
+      "refinement_accepted": true,
+      "refinement_message": "Optimization terminated successfully",
+      "refinement_displacement_A": 0.144554758331735
+    },
+    {
+      "candidate_id": 111,
+      "source_candidate_id": 85,
+      "frac_x": 0.822210652743277,
+      "frac_y": 0.569024034763322,
+      "frac_z": 3e-15,
+      "cart_x_A": 3.957638071561185,
+      "cart_y_A": 2.960049446235091,
+      "cart_z_A": 2.1e-14,
+      "nearest_atom_center_A": 1.833798113440625,
+      "source_method": "voronoi",
+      "merge_cluster_id": 16,
+      "merge_member_count": 2,
+      "merge_representative_candidate_id": 111,
+      "merge_member_candidate_ids": [
+        16,
+        111
+      ],
+      "merge_source_methods": [
+        "grid",
+        "voronoi"
+      ],
+      "is_merge_representative": true,
+      "symmetry_group_id": 12,
+      "is_symmetry_representative": true,
+      "seed_frac_x": 0.75,
+      "seed_frac_y": 0.576923076923077,
+      "seed_frac_z": 0.0,
+      "geometry_seed_candidate_id": 16,
+      "geometry_seed_source_method": "grid",
+      "probe_element": "Li",
+      "probe_oxidation_state": 1,
+      "probe_coordination": 6,
+      "probe_radius_A": 0.76,
+      "probe_radius_source": "shannon",
+      "probe_radius_issue": "",
+      "probe_radius_warning": "",
+      "free_radius_A": 0.773689824445642,
+      "minimum_free_radius_A": 0.76,
+      "free_radius_complete": true,
+      "geometry_margin_A": 0.013689824445642,
+      "full_radius_margin_A": 0.013689824445642,
+      "geometry_status": "passed",
+      "full_radius_status": "passed",
+      "geometry_limiting_site_index": 11,
+      "geometry_limiting_element": "O",
+      "geometry_unresolved_sites": 0,
+      "geometry_reason": "ion_fits_radius_model",
+      "refinement_success": true,
+      "refinement_accepted": true,
+      "refinement_message": "Optimization terminated successfully",
+      "refinement_displacement_A": 0.350000000109786
+    },
+    {
+      "candidate_id": 108,
+      "source_candidate_id": 82,
+      "frac_x": 0.874505383324621,
+      "frac_y": 0.448382501578038,
+      "frac_z": 0.499999999999408,
+      "cart_x_A": 4.209354120240725,
+      "cart_y_A": 2.332475070318642,
+      "cart_z_A": 3.028733389996412,
+      "nearest_atom_center_A": 1.6454469062218,
+      "source_method": "voronoi",
+      "merge_cluster_id": 20,
+      "merge_member_count": 2,
+      "merge_representative_candidate_id": 108,
+      "merge_member_candidate_ids": [
+        20,
+        108
+      ],
+      "merge_source_methods": [
+        "grid",
+        "voronoi"
+      ],
+      "is_merge_representative": true,
+      "symmetry_group_id": 15,
+      "is_symmetry_representative": true,
+      "seed_frac_x": 0.839744547395867,
+      "seed_frac_y": 0.4982691586523,
+      "seed_frac_z": 0.5,
+      "geometry_seed_candidate_id": 108,
+      "geometry_seed_source_method": "voronoi",
+      "probe_element": "Li",
+      "probe_oxidation_state": 1,
+      "probe_coordination": 6,
+      "probe_radius_A": 0.76,
+      "probe_radius_source": "shannon",
+      "probe_radius_issue": "",
+      "probe_radius_warning": "",
+      "free_radius_A": 0.826947229317322,
+      "minimum_free_radius_A": 0.76,
+      "free_radius_complete": true,
+      "geometry_margin_A": 0.066947229317322,
+      "full_radius_margin_A": 0.066947229317322,
+      "geometry_status": "passed",
+      "full_radius_status": "passed",
+      "geometry_limiting_site_index": 8,
+      "geometry_limiting_element": "O",
+      "geometry_unresolved_sites": 0,
+      "geometry_reason": "ion_fits_radius_model",
+      "refinement_success": true,
+      "refinement_accepted": true,
+      "refinement_message": "Optimization terminated successfully",
+      "refinement_displacement_A": 0.30877241631572
+    },
+    {
+      "candidate_id": 41,
+      "source_candidate_id": 15,
+      "frac_x": 0.368686234787048,
+      "frac_y": 0.563169699835086,
+      "frac_z": 0.987585347267581,
+      "cart_x_A": 1.774638499739017,
+      "cart_y_A": 2.929595335681381,
+      "cart_z_A": 5.982265433488135,
+      "nearest_atom_center_A": 2.013607075447992,
+      "source_method": "voronoi",
+      "merge_cluster_id": 35,
+      "merge_member_count": 2,
+      "merge_representative_candidate_id": 41,
+      "merge_member_candidate_ids": [
+        41,
+        42
+      ],
+      "merge_source_methods": [
+        "voronoi"
+      ],
+      "is_merge_representative": true,
+      "symmetry_group_id": 28,
+      "is_symmetry_representative": true,
+      "seed_frac_x": 0.326752060368706,
+      "seed_frac_y": 0.581783528816742,
+      "seed_frac_z": 0.943170833066294,
+      "geometry_seed_candidate_id": 41,
+      "geometry_seed_source_method": "voronoi",
+      "probe_element": "Li",
+      "probe_oxidation_state": 1,
+      "probe_coordination": 6,
+      "probe_radius_A": 0.76,
+      "probe_radius_source": "shannon",
+      "probe_radius_issue": "",
+      "probe_radius_warning": "",
+      "free_radius_A": 0.783292702295778,
+      "minimum_free_radius_A": 0.76,
+      "free_radius_complete": true,
+      "geometry_margin_A": 0.023292702295778,
+      "full_radius_margin_A": 0.023292702295778,
+      "geometry_status": "passed",
+      "full_radius_status": "passed",
+      "geometry_limiting_site_index": 13,
+      "geometry_limiting_element": "O",
+      "geometry_unresolved_sites": 0,
+      "geometry_reason": "ion_fits_radius_model",
+      "refinement_success": true,
+      "refinement_accepted": true,
+      "refinement_message": "Optimization terminated successfully",
+      "refinement_displacement_A": 0.350000000003201
+    },
+    {
+      "candidate_id": 46,
+      "source_candidate_id": 20,
+      "frac_x": 0.829536267592989,
+      "frac_y": 0.41621727554031,
+      "frac_z": 0.433951176245988,
+      "cart_x_A": 3.992899269078006,
+      "cart_y_A": 2.165152332254324,
+      "cart_z_A": 2.628644834252,
+      "nearest_atom_center_A": 1.648765040455841,
+      "source_method": "voronoi",
+      "merge_cluster_id": 39,
+      "merge_member_count": 1,
+      "merge_representative_candidate_id": 46,
+      "merge_member_candidate_ids": [
+        46
+      ],
+      "merge_source_methods": [
+        "voronoi"
+      ],
+      "is_merge_representative": true,
+      "symmetry_group_id": 32,
+      "is_symmetry_representative": true,
+      "seed_frac_x": 0.827752075357765,
+      "seed_frac_y": 0.41616975297982,
+      "seed_frac_z": 0.376188653010153,
+      "geometry_seed_candidate_id": 88,
+      "geometry_seed_source_method": "voronoi",
+      "probe_element": "Li",
+      "probe_oxidation_state": 1,
+      "probe_coordination": 4,
+      "probe_radius_A": 0.59,
+      "probe_radius_source": "shannon",
+      "probe_radius_issue": "",
+      "probe_radius_warning": "",
+      "free_radius_A": 0.606127233455884,
+      "minimum_free_radius_A": 0.59,
+      "free_radius_complete": true,
+      "geometry_margin_A": 0.016127233455884,
+      "full_radius_margin_A": 0.016127233455884,
+      "geometry_status": "passed",
+      "full_radius_status": "passed",
+      "geometry_limiting_site_index": 11,
+      "geometry_limiting_element": "O",
+      "geometry_unresolved_sites": 0,
+      "geometry_reason": "ion_fits_radius_model",
+      "refinement_success": true,
+      "refinement_accepted": true,
+      "refinement_message": "Optimization terminated successfully",
+      "refinement_displacement_A": 0.350000032561239
+    },
+    {
+      "candidate_id": 48,
+      "source_candidate_id": 22,
+      "frac_x": 0.377193341736649,
+      "frac_y": 0.557238185122648,
+      "frac_z": 1.47e-13,
+      "cart_x_A": 1.81558670471575,
+      "cart_y_A": 2.898739737732535,
+      "cart_z_A": 8.91e-13,
+      "nearest_atom_center_A": 2.037111053097574,
+      "source_method": "voronoi",
+      "merge_cluster_id": 41,
+      "merge_member_count": 1,
+      "merge_representative_candidate_id": 48,
+      "merge_member_candidate_ids": [
+        48
+      ],
+      "merge_source_methods": [
+        "voronoi"
+      ],
+      "is_merge_representative": true,
+      "symmetry_group_id": 34,
+      "is_symmetry_representative": true,
+      "seed_frac_x": 0.337528739814907,
+      "seed_frac_y": 0.55414912056093,
+      "seed_frac_z": 6.43770150428694e-18,
+      "geometry_seed_candidate_id": 48,
+      "geometry_seed_source_method": "voronoi",
+      "probe_element": "Li",
+      "probe_oxidation_state": 1,
+      "probe_coordination": 6,
+      "probe_radius_A": 0.76,
+      "probe_radius_source": "shannon",
+      "probe_radius_issue": "",
+      "probe_radius_warning": "",
+      "free_radius_A": 0.831218649250991,
+      "minimum_free_radius_A": 0.76,
+      "free_radius_complete": true,
+      "geometry_margin_A": 0.071218649250991,
+      "full_radius_margin_A": 0.071218649250991,
+      "geometry_status": "passed",
+      "full_radius_status": "passed",
+      "geometry_limiting_site_index": 13,
+      "geometry_limiting_element": "O",
+      "geometry_unresolved_sites": 0,
+      "geometry_reason": "ion_fits_radius_model",
+      "refinement_success": true,
+      "refinement_accepted": true,
+      "refinement_message": "Optimization terminated successfully",
+      "refinement_displacement_A": 0.191597096725752
+    },
+    {
+      "candidate_id": 63,
+      "source_candidate_id": 37,
+      "frac_x": 0.327325587422697,
+      "frac_y": 0.430343191155772,
+      "frac_z": 0.5,
+      "cart_x_A": 1.575552691099313,
+      "cart_y_A": 2.238635008100353,
+      "cart_z_A": 3.02873339,
+      "nearest_atom_center_A": 1.820881793241825,
+      "source_method": "voronoi",
+      "merge_cluster_id": 51,
+      "merge_member_count": 1,
+      "merge_representative_candidate_id": 63,
+      "merge_member_candidate_ids": [
+        63
+      ],
+      "merge_source_methods": [
+        "voronoi"
+      ],
+      "is_merge_representative": true,
+      "symmetry_group_id": 38,
+      "is_symmetry_representative": true,
+      "seed_frac_x": 0.347879082176573,
+      "seed_frac_y": 0.49029448155727,
+      "seed_frac_z": 0.5,
+      "geometry_seed_candidate_id": 63,
+      "geometry_seed_source_method": "voronoi",
+      "probe_element": "Li",
+      "probe_oxidation_state": 1,
+      "probe_coordination": 6,
+      "probe_radius_A": 0.76,
+      "probe_radius_source": "shannon",
+      "probe_radius_issue": "",
+      "probe_radius_warning": "",
+      "free_radius_A": 0.764761208941755,
+      "minimum_free_radius_A": 0.76,
+      "free_radius_complete": true,
+      "geometry_margin_A": 0.004761208941755,
+      "full_radius_margin_A": 0.004761208941755,
+      "geometry_status": "passed",
+      "full_radius_status": "passed",
+      "geometry_limiting_site_index": 7,
+      "geometry_limiting_element": "O",
+      "geometry_unresolved_sites": 0,
+      "geometry_reason": "ion_fits_radius_model",
+      "refinement_success": true,
+      "refinement_accepted": true,
+      "refinement_message": "Optimization terminated successfully",
+      "refinement_displacement_A": 0.327181167146286
+    },
+    {
+      "candidate_id": 82,
+      "source_candidate_id": 56,
+      "frac_x": 0.325451491047307,
+      "frac_y": 0.430575051193064,
+      "frac_z": 0.50000000000015,
+      "cart_x_A": 1.566531894372503,
+      "cart_y_A": 2.23984113847985,
+      "cart_z_A": 3.028733390000907,
+      "nearest_atom_center_A": 1.825585691838358,
+      "source_method": "voronoi",
+      "merge_cluster_id": 61,
+      "merge_member_count": 1,
+      "merge_representative_candidate_id": 82,
+      "merge_member_candidate_ids": [
+        82
+      ],
+      "merge_source_methods": [
+        "voronoi"
+      ],
+      "is_merge_representative": true,
+      "symmetry_group_id": 46,
+      "is_symmetry_representative": true,
+      "seed_frac_x": 0.260257057591937,
+      "seed_frac_y": 0.452296145923285,
+      "seed_frac_z": 0.517515756285897,
+      "geometry_seed_candidate_id": 84,
+      "geometry_seed_source_method": "voronoi",
+      "probe_element": "Li",
+      "probe_oxidation_state": 1,
+      "probe_coordination": 6,
+      "probe_radius_A": 0.76,
+      "probe_radius_source": "shannon",
+      "probe_radius_issue": "",
+      "probe_radius_warning": "",
+      "free_radius_A": 0.760677898818065,
+      "minimum_free_radius_A": 0.76,
+      "free_radius_complete": true,
+      "geometry_margin_A": 0.000677898818065,
+      "full_radius_margin_A": 0.000677898818065,
+      "geometry_status": "passed",
+      "full_radius_status": "passed",
+      "geometry_limiting_site_index": 7,
+      "geometry_limiting_element": "O",
+      "geometry_unresolved_sites": 0,
+      "geometry_reason": "ion_fits_radius_model",
+      "refinement_success": true,
+      "refinement_accepted": true,
+      "refinement_message": "Optimization terminated successfully",
+      "refinement_displacement_A": 0.350000003652668
+    },
+    {
+      "candidate_id": 83,
+      "source_candidate_id": 57,
+      "frac_x": 0.327325621376363,
+      "frac_y": 0.430343208349444,
+      "frac_z": 0.500000000000066,
+      "cart_x_A": 1.575552854532276,
+      "cart_y_A": 2.238635097541426,
+      "cart_z_A": 3.028733390000403,
+      "nearest_atom_center_A": 1.820881740951473,
+      "source_method": "voronoi",
+      "merge_cluster_id": 62,
+      "merge_member_count": 1,
+      "merge_representative_candidate_id": 83,
+      "merge_member_candidate_ids": [
+        83
+      ],
+      "merge_source_methods": [
+        "voronoi"
+      ],
+      "is_merge_representative": true,
+      "symmetry_group_id": 47,
+      "is_symmetry_representative": true,
+      "seed_frac_x": 0.275393899924792,
+      "seed_frac_y": 0.448939914433672,
+      "seed_frac_z": 0.5,
+      "geometry_seed_candidate_id": 83,
+      "geometry_seed_source_method": "voronoi",
+      "probe_element": "Li",
+      "probe_oxidation_state": 1,
+      "probe_coordination": 6,
+      "probe_radius_A": 0.76,
+      "probe_radius_source": "shannon",
+      "probe_radius_issue": "",
+      "probe_radius_warning": "",
+      "free_radius_A": 0.76476131481975,
+      "minimum_free_radius_A": 0.76,
+      "free_radius_complete": true,
+      "geometry_margin_A": 0.00476131481975,
+      "full_radius_margin_A": 0.00476131481975,
+      "geometry_status": "passed",
+      "full_radius_status": "passed",
+      "geometry_limiting_site_index": 9,
+      "geometry_limiting_element": "O",
+      "geometry_unresolved_sites": 0,
+      "geometry_reason": "ion_fits_radius_model",
+      "refinement_success": true,
+      "refinement_accepted": true,
+      "refinement_message": "Optimization terminated successfully",
+      "refinement_displacement_A": 0.268035302689276
+    },
+    {
+      "candidate_id": 118,
+      "source_candidate_id": 92,
+      "frac_x": 0.827325618595145,
+      "frac_y": 0.569656793060408,
+      "frac_z": 4.11861861587163e-16,
+      "cart_x_A": 3.98225850614513,
+      "cart_y_A": 2.963341039792592,
+      "cart_z_A": 3e-15,
+      "nearest_atom_center_A": 1.820881745232732,
+      "source_method": "voronoi",
+      "merge_cluster_id": 85,
+      "merge_member_count": 1,
+      "merge_representative_candidate_id": 118,
+      "merge_member_candidate_ids": [
+        118
+      ],
+      "merge_source_methods": [
+        "voronoi"
+      ],
+      "is_merge_representative": true,
+      "symmetry_group_id": 55,
+      "is_symmetry_representative": true,
+      "seed_frac_x": 0.847879082176573,
+      "seed_frac_y": 0.50970551844273,
+      "seed_frac_z": 0.0,
+      "geometry_seed_candidate_id": 118,
+      "geometry_seed_source_method": "voronoi",
+      "probe_element": "Li",
+      "probe_oxidation_state": 1,
+      "probe_coordination": 6,
+      "probe_radius_A": 0.76,
+      "probe_radius_source": "shannon",
+      "probe_radius_issue": "",
+      "probe_radius_warning": "",
+      "free_radius_A": 0.784761306146372,
+      "minimum_free_radius_A": 0.76,
+      "free_radius_complete": true,
+      "geometry_margin_A": 0.024761306146372,
+      "full_radius_margin_A": 0.024761306146372,
+      "geometry_status": "passed",
+      "full_radius_status": "passed",
+      "geometry_limiting_site_index": 11,
+      "geometry_limiting_element": "O",
+      "geometry_unresolved_sites": 0,
+      "geometry_reason": "ion_fits_radius_model",
+      "refinement_success": true,
+      "refinement_accepted": true,
+      "refinement_message": "Optimization terminated successfully",
+      "refinement_displacement_A": 0.327181043512273
+    },
+    {
+      "candidate_id": 122,
+      "source_candidate_id": 96,
+      "frac_x": 0.509565766694773,
+      "frac_y": 0.834033385537267,
+      "frac_z": 2.65502606950118e-17,
+      "cart_x_A": 2.452749634788757,
+      "cart_y_A": 4.33862176318795,
+      "cart_z_A": 5.76678884378027e-16,
+      "nearest_atom_center_A": 1.9810024132874,
+      "source_method": "voronoi",
+      "merge_cluster_id": 89,
+      "merge_member_count": 1,
+      "merge_representative_candidate_id": 122,
+      "merge_member_candidate_ids": [
+        122
+      ],
+      "merge_source_methods": [
+        "voronoi"
+      ],
+      "is_merge_representative": true,
+      "symmetry_group_id": 58,
+      "is_symmetry_representative": true,
+      "seed_frac_x": 0.509565766694773,
+      "seed_frac_y": 0.834033385537267,
+      "seed_frac_z": 2.65502606950118e-17,
+      "geometry_seed_candidate_id": 122,
+      "geometry_seed_source_method": "voronoi",
+      "probe_element": "Li",
+      "probe_oxidation_state": 1,
+      "probe_coordination": 4,
+      "probe_radius_A": 0.59,
+      "probe_radius_source": "shannon",
+      "probe_radius_issue": "",
+      "probe_radius_warning": "",
+      "free_radius_A": 0.6210024132874,
+      "minimum_free_radius_A": 0.59,
+      "free_radius_complete": true,
+      "geometry_margin_A": 0.0310024132874,
+      "full_radius_margin_A": 0.0310024132874,
+      "geometry_status": "passed",
+      "full_radius_status": "passed",
+      "geometry_limiting_site_index": 10,
+      "geometry_limiting_element": "O",
+      "geometry_unresolved_sites": 0,
+      "geometry_reason": "ion_fits_radius_model",
+      "refinement_success": true,
+      "refinement_accepted": false,
+      "refinement_message": "Optimization terminated successfully",
+      "refinement_displacement_A": 0.0
+    }
+  ]
+}

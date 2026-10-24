@@ -1,0 +1,51 @@
+[
+  {
+    "structure": "LATP_sc_integer152_stoichiometric",
+    "passed_before": 197,
+    "passed_unique": 108,
+    "members_preserved": true,
+    "full_radius_rechecked": true
+  },
+  {
+    "structure": "LLZO_cub_ga",
+    "passed_before": 0,
+    "passed_unique": 0,
+    "members_preserved": true,
+    "full_radius_rechecked": true
+  },
+  {
+    "structure": "Li10Ge(PS6)2",
+    "passed_before": 0,
+    "passed_unique": 0,
+    "members_preserved": true,
+    "full_radius_rechecked": true
+  },
+  {
+    "structure": "Li3PO4",
+    "passed_before": 5,
+    "passed_unique": 2,
+    "members_preserved": true,
+    "full_radius_rechecked": true
+  },
+  {
+    "structure": "LiCl",
+    "passed_before": 0,
+    "passed_unique": 0,
+    "members_preserved": true,
+    "full_radius_rechecked": true
+  },
+  {
+    "structure": "LiCl_one_Li_vacancy",
+    "passed_before": 0,
+    "passed_unique": 0,
+    "members_preserved": true,
+    "full_radius_rechecked": true
+  },
+  {
+    "structure": "Li3PO4_one_Li_vacancy",
+    "passed_before": 13,
+    "passed_unique": 6,
+    "members_preserved": true,
+    "full_radius_rechecked": true
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "settings": {
+    "probe_element": "Li",
+    "distance_tolerance_A": 0.1,
+    "numeric_tolerance_A": 1e-08,
+    "symmetry_symprec_A": 0.1,
+    "symmetry_angle_tolerance_deg": 5.0
+  },
+  "reference_statistic": "mean_over_all_occupied_sites_of_nearest_other_periodic_probe_distance",
+  "pass_rule": "nearest_distance + distance_tolerance_A + numeric_tolerance_A >= mean_distance",
+  "structure_file": "/Users/irinabrodyagina/Desktop/РНФ_поиск_пор/kobernik_voids/cifs/Li3PO4.cif",
+  "structure_sha256": "81644acc6031b60e754cd5f6f3334f564ebafdf5fc6556345efa71310046d4a7",
+  "saved_geometry_source": "/Users/irinabrodyagina/Desktop/РНФ_поиск_пор/elec_voids_results/pipeline_compact_20261024_200915/Li3PO4/candidates.csv",
+  "saved_geometry_source_sha256": "a502c4348acf4be6d19ad1f593a78d9ed60ce5b9447b217838c46bb88bfafcf7",
+  "search_and_geometry_rerun": false
+}

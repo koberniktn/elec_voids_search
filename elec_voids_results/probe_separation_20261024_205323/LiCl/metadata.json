@@ -1,0 +1,16 @@
+{
+  "settings": {
+    "probe_element": "Li",
+    "distance_tolerance_A": 0.1,
+    "numeric_tolerance_A": 1e-08,
+    "symmetry_symprec_A": 0.1,
+    "symmetry_angle_tolerance_deg": 5.0
+  },
+  "reference_statistic": "mean_over_all_occupied_sites_of_nearest_other_periodic_probe_distance",
+  "pass_rule": "nearest_distance + distance_tolerance_A + numeric_tolerance_A >= mean_distance",
+  "structure_file": "/Users/irinabrodyagina/Desktop/РНФ_поиск_пор/kobernik_voids/cifs/LiCl.cif",
+  "structure_sha256": "a2b90fed0def2b17ab62ab2841abcb4719d1296f3b4dfa17f84ca832a3cfeba9",
+  "saved_geometry_source": "/Users/irinabrodyagina/Desktop/РНФ_поиск_пор/elec_voids_results/pipeline_compact_20261024_200915/LiCl/candidates.csv",
+  "saved_geometry_source_sha256": "c2fe506c7ad89791bc99eda5e204005103fd058550642461f287c778e7c5fc2d",
+  "search_and_geometry_rerun": false
+}

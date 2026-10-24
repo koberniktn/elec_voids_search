@@ -1,0 +1,5 @@
+structure,variant,n_passed,n_final_unique,n_indeterminate,nearest_vacancy_A,recovered
+LiCl_one_Li_vacancy,current_default,0,0,16,inf,False
+LiCl_one_Li_vacancy,explicit_ionic_fallback,10,6,0,0.00016555911895022035,True
+Li3PO4_one_Li_vacancy,current_default,13,6,31,0.04215082154977433,True
+Li3PO4_one_Li_vacancy,refine_radius_0p7,24,8,24,0.04215082154977433,True

@@ -1,0 +1,28 @@
+[
+  {
+    "site_index":0,
+    "probe_element":"Li",
+    "probe_oxidation_state":1,
+    "probe_coordination":4,
+    "probe_radius_A":0.59,
+    "free_radius_A":3.313623203611196,
+    "geometry_margin_A":2.723623203611196,
+    "geometry_status":"indeterminate",
+    "frac_x":0.666666666666667,
+    "frac_y":0.333333333333333,
+    "frac_z":0.876017
+  },
+  {
+    "site_index":1,
+    "probe_element":"Li",
+    "probe_oxidation_state":1,
+    "probe_coordination":4,
+    "probe_radius_A":0.59,
+    "free_radius_A":3.313623203611196,
+    "geometry_margin_A":2.723623203611196,
+    "geometry_status":"indeterminate",
+    "frac_x":0.333333333333333,
+    "frac_y":0.666666666666667,
+    "frac_z":0.376017
+  }
+]

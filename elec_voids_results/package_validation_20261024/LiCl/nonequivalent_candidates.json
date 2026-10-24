@@ -1,0 +1,241 @@
+{
+  "method": "nonequivalent",
+  "parameters": {
+    "grid": {
+      "mesh_shape_core": [
+        18,
+        18,
+        30
+      ],
+      "n_grid_samples": 9720,
+      "n_grid_maximum_nodes": 16,
+      "n_grid_candidates": 16,
+      "resolution_A": 0.2
+    },
+    "voronoi": {
+      "n_voronoi_raw_vertices": 10,
+      "n_voronoi_candidates": 10,
+      "image_range": 1,
+      "duplicate_tolerance_A": 1e-06
+    },
+    "symprec_A": 0.1,
+    "symmetry_tolerance_A": 0.25,
+    "combination_order": [
+      "grid",
+      "voronoi"
+    ],
+    "radius_filter_applied": false
+  },
+  "coordinate_system": "fractional coordinates of the input cell; Cartesian in angstrom",
+  "lattice_matrix_A": [
+    [
+      3.92488221,
+      0.0,
+      2.403297217753445e-16
+    ],
+    [
+      -1.962441104999999,
+      3.3990477007216104,
+      2.403297217753445e-16
+    ],
+    [
+      0.0,
+      0.0,
+      6.357161
+    ]
+  ],
+  "host": {
+    "@module": "pymatgen.core.structure",
+    "@class": "Structure",
+    "charge": 0.0,
+    "lattice": {
+      "matrix": [
+        [
+          3.92488221,
+          0.0,
+          2.403297217753445e-16
+        ],
+        [
+          -1.962441104999999,
+          3.3990477007216104,
+          2.403297217753445e-16
+        ],
+        [
+          0.0,
+          0.0,
+          6.357161
+        ]
+      ],
+      "pbc": [
+        true,
+        true,
+        true
+      ],
+      "a": 3.92488221,
+      "b": 3.92488221,
+      "c": 6.357161,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 119.99999999999999,
+      "volume": 84.8100066687668
+    },
+    "properties": {},
+    "sites": [
+      {
+        "species": [
+          {
+            "element": "Li",
+            "oxidation_state": 1.0,
+            "spin": null,
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.6666666666666666,
+          0.3333333333333333,
+          0.876017
+        ],
+        "properties": {},
+        "label": "Li0",
+        "xyz": [
+          1.9624411050000001,
+          1.1330159002405367,
+          5.568981107737
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "Li",
+            "oxidation_state": 1.0,
+            "spin": null,
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.3333333333333333,
+          0.6666666666666666,
+          0.376017
+        ],
+        "properties": {},
+        "label": "Li1",
+        "xyz": [
+          6.661338147750939e-16,
+          2.2660318004810733,
+          2.3904006077370004
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "Cl",
+            "oxidation_state": -1.0,
+            "spin": null,
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.6666666666666666,
+          0.3333333333333333,
+          0.498984
+        ],
+        "properties": {},
+        "label": "Cl2",
+        "xyz": [
+          1.9624411050000001,
+          1.1330159002405367,
+          3.1721216244240003
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "Cl",
+            "oxidation_state": -1.0,
+            "spin": null,
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.3333333333333333,
+          0.6666666666666666,
+          0.998984
+        ],
+        "properties": {},
+        "label": "Cl3",
+        "xyz": [
+          6.661338147750939e-16,
+          2.2660318004810733,
+          6.350702124423999
+        ]
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "candidate_id": 0,
+      "source_candidate_id": 0,
+      "frac_x": 0.0,
+      "frac_y": 0.0,
+      "frac_z": 0.2,
+      "cart_x_A": 0.0,
+      "cart_y_A": 0.0,
+      "cart_z_A": 1.2714322,
+      "nearest_atom_center_A": 2.527249575784903,
+      "source_method": "grid",
+      "is_symmetry_representative": true
+    },
+    {
+      "candidate_id": 1,
+      "source_candidate_id": 1,
+      "frac_x": 0.0,
+      "frac_y": 0.0,
+      "frac_z": 0.43333333333333335,
+      "cart_x_A": 0.0,
+      "cart_y_A": 0.0,
+      "cart_z_A": 2.7547697666666666,
+      "nearest_atom_center_A": 2.2951394303550727,
+      "source_method": "grid",
+      "is_symmetry_representative": true
+    },
+    {
+      "candidate_id": 4,
+      "source_candidate_id": 4,
+      "frac_x": 0.05555555555555555,
+      "frac_y": 0.1111111111111111,
+      "frac_z": 0.7,
+      "cart_x_A": 1.0770668989406533e-16,
+      "cart_y_A": 0.3776719667468456,
+      "cart_z_A": 4.450012699999999,
+      "nearest_atom_center_A": 2.381976038076962,
+      "source_method": "grid",
+      "is_symmetry_representative": true
+    },
+    {
+      "candidate_id": 6,
+      "source_candidate_id": 6,
+      "frac_x": 0.1111111111111111,
+      "frac_y": 0.2222222222222222,
+      "frac_z": 0.7,
+      "cart_x_A": 2.1541337978813066e-16,
+      "cart_y_A": 0.7553439334936912,
+      "cart_z_A": 4.450012699999999,
+      "nearest_atom_center_A": 2.2903933073979954,
+      "source_method": "grid",
+      "is_symmetry_representative": true
+    },
+    {
+      "candidate_id": 7,
+      "source_candidate_id": 7,
+      "frac_x": 0.16666666666666666,
+      "frac_y": 0.3333333333333333,
+      "frac_z": 0.7,
+      "cart_x_A": 2.953644940665671e-16,
+      "cart_y_A": 1.1330159002405367,
+      "cart_z_A": 4.450012699999999,
+      "nearest_atom_center_A": 2.2127686996871385,
+      "source_method": "grid",
+      "is_symmetry_representative": true
+    }
+  ]
+}

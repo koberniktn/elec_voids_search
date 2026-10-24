@@ -1,0 +1,16 @@
+{
+  "settings": {
+    "probe_element": "Li",
+    "distance_tolerance_A": 0.1,
+    "numeric_tolerance_A": 1e-08,
+    "symmetry_symprec_A": 0.1,
+    "symmetry_angle_tolerance_deg": 5.0
+  },
+  "reference_statistic": "mean_over_all_occupied_sites_of_nearest_other_periodic_probe_distance",
+  "pass_rule": "nearest_distance + distance_tolerance_A + numeric_tolerance_A >= mean_distance",
+  "structure_file": "/Users/irinabrodyagina/Desktop/РНФ_поиск_пор/cif_tests_2/LiCl_one_Li_vacancy.cif",
+  "structure_sha256": "36ea10c8649d72bd29fd1f4a9bcb21687aa851a51a1e5957ffdedb79b9537c28",
+  "saved_geometry_source": "/Users/irinabrodyagina/Desktop/РНФ_поиск_пор/elec_voids_results/pipeline_compact_20261024_200915/LiCl_one_Li_vacancy/candidates.csv",
+  "saved_geometry_source_sha256": "ab00377e77f6981b017a1865e09fe1420a89ea5dcdf4b97f01d387be0e0c7a9a",
+  "search_and_geometry_rerun": false
+}

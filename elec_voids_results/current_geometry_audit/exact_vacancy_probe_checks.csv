@@ -1,0 +1,7 @@
+structure,diagnostic_probe_cell_factor,free_radius_A,known_host_radii,margin_A,probe_element,probe_oxidation_state,probe_coordination,probe_radius_A,probe_radius_source,probe_radius_issue,probe_radius_warning
+LiCl_one_Li_vacancy,1,3.313623203611196,False,2.7236232036111963,Li,1,4,0.59,shannon,,
+LiCl_one_Li_vacancy,2,3.313623203611196,False,2.7236232036111963,Li,1,4,0.59,shannon,,
+LiCl_one_Li_vacancy,3,3.313623203611196,False,2.7236232036111963,Li,1,4,0.59,shannon,,
+Li3PO4_one_Li_vacancy,1,0.5824668724174731,True,-0.007533127582526888,Li,1,4,0.59,shannon,,
+Li3PO4_one_Li_vacancy,2,0.5824668724174731,True,-0.007533127582526888,Li,1,4,0.59,shannon,,
+Li3PO4_one_Li_vacancy,3,0.5824668724174731,True,-0.007533127582526888,Li,1,4,0.59,shannon,,

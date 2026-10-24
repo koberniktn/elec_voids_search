@@ -1,0 +1,31 @@
+{
+  "structure_file": "/Users/irinabrodyagina/Desktop/РНФ_поиск_пор/kobernik_voids/cifs/LiCl.cif",
+  "input_sha256": "a2b90fed0def2b17ab62ab2841abcb4719d1296f3b4dfa17f84ca832a3cfeba9",
+  "python": "/Users/irinabrodyagina/Desktop/electrolyties/elec_venv/bin/python",
+  "parameters": {
+    "grid": {
+      "mesh_shape_core": [
+        18,
+        18,
+        30
+      ],
+      "n_grid_samples": 9720,
+      "n_grid_maximum_nodes": 16,
+      "n_grid_candidates": 16,
+      "resolution_A": 0.2
+    },
+    "voronoi": {
+      "n_voronoi_raw_vertices": 10,
+      "n_voronoi_candidates": 10,
+      "image_range": 1,
+      "duplicate_tolerance_A": 1e-06
+    },
+    "symprec_A": 0.1,
+    "symmetry_tolerance_A": 0.25,
+    "combination_order": [
+      "grid",
+      "voronoi"
+    ],
+    "radius_filter_applied": false
+  }
+}

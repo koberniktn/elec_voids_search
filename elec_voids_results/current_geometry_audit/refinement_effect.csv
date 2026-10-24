@@ -1,0 +1,8 @@
+structure,n_seed_pass_groups,n_final_pass,gained_by_refinement,lost_by_refinement,max_shift_A,n_shift_at_limit
+LATP_sc_integer152_stoichiometric,83,197,114,0,0.3500000937048294,62
+LLZO_cub_ga,0,0,0,0,0.3500000986958816,276
+Li10Ge(PS6)2,0,0,0,0,0.3500000589837613,15
+Li3PO4,0,5,5,0,0.3500000047153311,3
+Li3PO4_one_Li_vacancy,1,13,12,0,0.3500000597804344,12
+LiCl,0,0,0,0,0.3500000226627035,1
+LiCl_one_Li_vacancy,0,0,0,0,0.3500000118634075,5

@@ -1,0 +1,15 @@
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:181: IOError: sysctlbyname failed for 'hw.l1dcachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:181: IOError: sysctlbyname failed for 'hw.l2cachesize'. Detail: [errno 1] Operation not permitted
+/Users/runner/work/crossbow/crossbow/arrow/cpp/src/arrow/util/cpu_info.cc:181: IOError: sysctlbyname failed for 'hw.l3cachesize'. Detail: [errno 1] Operation not permitted
+            structure  grid_resolution_A  n_candidates  nearest_vacancy_A  recovered
+  LiCl_one_Li_vacancy                0.1            47           0.123509       True
+  LiCl_one_Li_vacancy                0.2            19           0.152464       True
+  LiCl_one_Li_vacancy                0.3            15           0.152464       True
+Li3PO4_one_Li_vacancy                0.1            39           0.095527       True
+Li3PO4_one_Li_vacancy                0.2            26           0.185173       True
+Li3PO4_one_Li_vacancy                0.3            12           0.161099       True
+            structure                 variant  n_passed  n_final_unique  n_indeterminate  nearest_vacancy_A  recovered
+  LiCl_one_Li_vacancy         current_default         0               0               16                inf      False
+  LiCl_one_Li_vacancy explicit_ionic_fallback        10               6                0           0.000166       True
+Li3PO4_one_Li_vacancy         current_default        13               6               31           0.042151       True
+Li3PO4_one_Li_vacancy       refine_radius_0p7        24               8               24           0.042151       True

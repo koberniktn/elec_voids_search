@@ -1,0 +1,39 @@
+{
+  "LLZO_cub_ga": {
+    "file": "/Users/irinabrodyagina/Desktop/\u0420\u041d\u0424_\u043f\u043e\u0438\u0441\u043a_\u043f\u043e\u0440/kobernik_voids/cifs/LLZO_cub_ga.cif",
+    "sha256": "0b6fa4ca490f4555e614ea69460502a7c066bd404cc1f082a18ce22cf2a2fe8e",
+    "oxidation_states": {
+      "Li": 1,
+      "La": 3,
+      "Zr": 4,
+      "Ga": 3,
+      "O": -2
+    }
+  },
+  "Li10Ge(PS6)2": {
+    "file": "/Users/irinabrodyagina/Desktop/\u0420\u041d\u0424_\u043f\u043e\u0438\u0441\u043a_\u043f\u043e\u0440/kobernik_voids/cifs/Li10Ge(PS6)2.cif",
+    "sha256": "9e4d6eed74f89969910e997bd35d6053bb0523012938ca25aa14efdee2734b0d",
+    "oxidation_states": {
+      "Li": 1,
+      "Ge": 4,
+      "P": 5,
+      "S": -2
+    }
+  },
+  "LiCl": {
+    "file": "/Users/irinabrodyagina/Desktop/\u0420\u041d\u0424_\u043f\u043e\u0438\u0441\u043a_\u043f\u043e\u0440/kobernik_voids/cifs/LiCl.cif",
+    "sha256": "a2b90fed0def2b17ab62ab2841abcb4719d1296f3b4dfa17f84ca832a3cfeba9",
+    "oxidation_states": {
+      "Li": 1,
+      "Cl": -1
+    }
+  },
+  "LiCl_one_Li_vacancy": {
+    "file": "/Users/irinabrodyagina/Desktop/\u0420\u041d\u0424_\u043f\u043e\u0438\u0441\u043a_\u043f\u043e\u0440/cif_tests_2/LiCl_one_Li_vacancy.cif",
+    "sha256": "36ea10c8649d72bd29fd1f4a9bcb21687aa851a51a1e5957ffdedb79b9537c28",
+    "oxidation_states": {
+      "Li": 1,
+      "Cl": -1
+    }
+  }
+}

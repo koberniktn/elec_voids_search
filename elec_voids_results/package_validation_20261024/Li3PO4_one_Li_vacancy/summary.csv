@@ -1,0 +1,2 @@
+structure_file,formula,space_group,n_grid_candidates,n_voronoi_raw_vertices,n_voronoi_candidates,n_combined_candidates,n_symmetry_nonequivalent_candidates,grid_resolution_A,symprec_A,symmetry_tolerance_A
+Li3PO4_one_Li_vacancy.cif,Li5(PO4)2,Pm,26,104,104,130,48,0.2,0.1,0.25

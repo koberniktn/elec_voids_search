@@ -1,0 +1,1479 @@
+{
+  "method": "geometry_indeterminate",
+  "parameters": {
+    "settings": {
+      "grid_resolution_A": 0.2,
+      "grid_search_cutoff_A": 5.0,
+      "grid_symprec_A": 0.1,
+      "grid_minima_window": 3,
+      "grid_relative_max_value_A": null,
+      "grid_r_min_A": 1.0,
+      "grid_empty_framework": false,
+      "grid_verbose": false,
+      "probe_element": "Li",
+      "probe_oxidation_state": 1,
+      "voronoi_image_range": 1,
+      "voronoi_boundary_tolerance": 1e-09,
+      "voronoi_qhull_options": null,
+      "merge_distance_A": 0.1,
+      "merge_representative": "voronoi",
+      "symmetry_symprec_A": 0.1,
+      "symmetry_tolerance_A": 0.1,
+      "symmetry_angle_tolerance_deg": 5.0,
+      "geometry_minimum_fit_fraction": 1.0,
+      "geometry_allow_ionic_fallback": false,
+      "geometry_probe_spin": "",
+      "geometry_overlap_tolerance_A": 0.0,
+      "geometry_numeric_tolerance_A": 1e-07,
+      "geometry_neighbor_cutoff_A": 12.0,
+      "geometry_oxidation_states": {},
+      "geometry_host_radius_overrides_A": {},
+      "geometry_spin": "",
+      "geometry_refine": true,
+      "geometry_refine_radius_A": 0.35,
+      "geometry_refine_maxiter": 100,
+      "geometry_optimizer_tolerance_A": 1e-06
+    },
+    "grid": {
+      "GRID_PARAMS": {
+        "r_min": 1.0,
+        "r_cut": 5.0,
+        "resolution": 0.2,
+        "symprec": 0.1,
+        "empty_framework": false,
+        "verbose": false
+      },
+      "mesh_shape_core": [
+        24,
+        26,
+        30
+      ],
+      "n_grid_samples": 18720,
+      "n_grid_candidates": 24,
+      "resolution_A": 0.2,
+      "min_distance": null,
+      "relative_max_value": null,
+      "minima_window": 3,
+      "probe_atomic_number": 3
+    },
+    "voronoi": {
+      "n_voronoi_raw_vertices": 116,
+      "n_voronoi_candidates": 116,
+      "image_range": 1,
+      "n_periodic_images": 27,
+      "boundary_tolerance_fractional": 1e-09,
+      "qhull_options": null,
+      "distance_merge_applied": false
+    },
+    "stage_order": [
+      "grid_and_voronoi",
+      "combined",
+      "merged",
+      "nonequivalent",
+      "geometry"
+    ],
+    "combination_order": [
+      "grid",
+      "voronoi"
+    ],
+    "radius_filter_applied": true,
+    "periodic_grouping": "batched_exact_lattice_distances_same_graph_components"
+  },
+  "coordinate_system": "fractional coordinates of the input cell; Cartesian in angstrom",
+  "lattice_matrix_A": [
+    [
+      4.81341133,
+      0.0,
+      2.947364389132052e-16
+    ],
+    [
+      -3.185291708422718e-16,
+      5.20197613,
+      3.185291708422718e-16
+    ],
+    [
+      0.0,
+      0.0,
+      6.05746678
+    ]
+  ],
+  "host": {
+    "@module": "pymatgen.core.structure",
+    "@class": "Structure",
+    "charge": 0.0,
+    "lattice": {
+      "matrix": [
+        [
+          4.81341133,
+          0.0,
+          2.947364389132052e-16
+        ],
+        [
+          -3.185291708422718e-16,
+          5.20197613,
+          3.185291708422718e-16
+        ],
+        [
+          0.0,
+          0.0,
+          6.05746678
+        ]
+      ],
+      "pbc": [
+        true,
+        true,
+        true
+      ],
+      "a": 4.81341133,
+      "b": 5.20197613,
+      "c": 6.05746678,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 151.67443017472192
+    },
+    "properties": {},
+    "sites": [
+      {
+        "species": [
+          {
+            "element": "Li",
+            "oxidation_state": 1,
+            "spin": null,
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.50971606,
+          0.84213504,
+          0.0
+        ],
+        "properties": {},
+        "label": "Li0",
+        "xyz": [
+          2.4534730582869595,
+          4.380766376316595,
+          4.18476472409693e-16
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "Li",
+            "oxidation_state": 1,
+            "spin": null,
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.00971606,
+          0.15786496,
+          0.5
+        ],
+        "properties": {},
+        "label": "Li1",
+        "xyz": [
+          0.04676739328695975,
+          0.8212097536834049,
+          3.02873339
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "Li",
+            "oxidation_state": 1,
+            "spin": null,
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.50905824,
+          0.32771537,
+          0.25152566
+        ],
+        "properties": {},
+        "label": "Li2",
+        "xyz": [
+          2.4503067000458594,
+          1.7047675321741182,
+          1.523608329767575
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "Li",
+            "oxidation_state": 1,
+            "spin": null,
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.00905824,
+          0.67228463,
+          0.24847434
+        ],
+        "properties": {},
+        "label": "Li3",
+        "xyz": [
+          0.04360103504585899,
+          3.4972085978258822,
+          1.5051250602324255
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "Li",
+            "oxidation_state": 1,
+            "spin": null,
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.00905824,
+          0.67228463,
+          0.75152566
+        ],
+        "properties": {},
+        "label": "Li4",
+        "xyz": [
+          0.04360103504585899,
+          3.4972085978258822,
+          4.552341719767575
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "Li",
+            "oxidation_state": 1,
+            "spin": null,
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.50905824,
+          0.32771537,
+          0.74847434
+        ],
+        "properties": {},
+        "label": "Li5",
+        "xyz": [
+          2.4503067000458594,
+          1.7047675321741182,
+          4.533858450232426
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "P",
+            "oxidation_state": 5,
+            "spin": null,
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.50098351,
+          0.82543738,
+          0.5
+        ],
+        "properties": {},
+        "label": "P6",
+        "xyz": [
+          2.4114397031771677,
+          4.293905547569739,
+          3.0287333900000006
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "P",
+            "oxidation_state": 5,
+            "spin": null,
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.00098351,
+          0.17456262,
+          0.0
+        ],
+        "properties": {},
+        "label": "P7",
+        "xyz": [
+          0.004734038177168244,
+          0.9080705824302606,
+          5.58931628436901e-17
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "O",
+            "oxidation_state": -2,
+            "spin": null,
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.10794221,
+          0.31319798,
+          0.79129757
+        ],
+        "properties": {},
+        "label": "O8",
+        "xyz": [
+          0.5195702565992392,
+          1.6292484159242173,
+          4.793258743369725
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "O",
+            "oxidation_state": -2,
+            "spin": null,
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.60306062,
+          0.10647078,
+          0.5
+        ],
+        "properties": {},
+        "label": "O9",
+        "xyz": [
+          2.902778820984825,
+          0.5538584561024814,
+          3.02873339
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "O",
+            "oxidation_state": -2,
+            "spin": null,
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.18114191,
+          0.81982067,
+          0.5
+        ],
+        "properties": {},
+        "label": "O10",
+        "xyz": [
+          0.87191052193184,
+          4.264687556220608,
+          3.0287333900000006
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "O",
+            "oxidation_state": -2,
+            "spin": null,
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.68114191,
+          0.18017933,
+          0.0
+        ],
+        "properties": {},
+        "label": "O11",
+        "xyz": [
+          3.2786161869318406,
+          0.9372885737793929,
+          2.5814971353575496e-16
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "O",
+            "oxidation_state": -2,
+            "spin": null,
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.60794221,
+          0.68680202,
+          0.29129757
+        ],
+        "properties": {},
+        "label": "O12",
+        "xyz": [
+          2.9262759215992395,
+          3.572727714075783,
+          1.7645253533697252
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "O",
+            "oxidation_state": -2,
+            "spin": null,
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.10794221,
+          0.31319798,
+          0.20870243
+        ],
+        "properties": {},
+        "label": "O13",
+        "xyz": [
+          0.5195702565992392,
+          1.6292484159242173,
+          1.2642080366302757
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "O",
+            "oxidation_state": -2,
+            "spin": null,
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.10306062,
+          0.89352922,
+          0.0
+        ],
+        "properties": {},
+        "label": "O14",
+        "xyz": [
+          0.4960731559848244,
+          4.648117673897519,
+          3.149908417009289e-16
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "O",
+            "oxidation_state": -2,
+            "spin": null,
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.60794221,
+          0.68680202,
+          0.70870243
+        ],
+        "properties": {},
+        "label": "O15",
+        "xyz": [
+          2.9262759215992395,
+          3.572727714075783,
+          4.292941426630276
+        ]
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "candidate_id": 55,
+      "source_candidate_id": 31,
+      "frac_x": 0.041666666666667,
+      "frac_y": 0.5,
+      "frac_z": 0.5,
+      "cart_x_A": 0.200558805416666,
+      "cart_y_A": 2.600988065,
+      "cart_z_A": 3.02873339,
+      "nearest_atom_center_A": 1.774606809317383,
+      "source_method": "voronoi",
+      "merge_cluster_id": 0,
+      "merge_member_count": 2,
+      "merge_representative_candidate_id": 55,
+      "merge_member_candidate_ids": [
+        0,
+        55
+      ],
+      "merge_source_methods": [
+        "grid",
+        "voronoi"
+      ],
+      "is_merge_representative": true,
+      "symmetry_group_id": 0,
+      "is_symmetry_representative": true,
+      "seed_frac_x": 0.041666666666667,
+      "seed_frac_y": 0.5,
+      "seed_frac_z": 0.5,
+      "geometry_seed_candidate_id": 0,
+      "geometry_seed_source_method": "grid",
+      "probe_element": "Li",
+      "probe_oxidation_state": 1,
+      "probe_coordination": 3,
+      "probe_radius_A": null,
+      "probe_radius_source": "unresolved",
+      "probe_radius_issue": "Нет радиуса Шеннона и стандартного ионного радиуса",
+      "probe_radius_warning": "",
+      "free_radius_A": 0.414048250286368,
+      "minimum_free_radius_A": null,
+      "free_radius_complete": true,
+      "geometry_margin_A": null,
+      "full_radius_margin_A": null,
+      "geometry_status": "indeterminate",
+      "full_radius_status": "indeterminate",
+      "geometry_limiting_site_index": 10,
+      "geometry_limiting_element": "O",
+      "geometry_unresolved_sites": 0,
+      "geometry_reason": "missing_site_or_probe_radius",
+      "refinement_success": true,
+      "refinement_accepted": false,
+      "refinement_message": "Optimization terminated successfully",
+      "refinement_displacement_A": 0.0
+    },
+    {
+      "candidate_id": 86,
+      "source_candidate_id": 62,
+      "frac_x": 0.083333333333333,
+      "frac_y": 0.0,
+      "frac_z": 0.266666666666667,
+      "cart_x_A": 0.401117610833333,
+      "cart_y_A": 0.0,
+      "cart_z_A": 1.615324474666667,
+      "nearest_atom_center_A": 1.670857319803183,
+      "source_method": "voronoi",
+      "merge_cluster_id": 1,
+      "merge_member_count": 3,
+      "merge_representative_candidate_id": 86,
+      "merge_member_candidate_ids": [
+        1,
+        86,
+        87
+      ],
+      "merge_source_methods": [
+        "grid",
+        "voronoi"
+      ],
+      "is_merge_representative": true,
+      "symmetry_group_id": 1,
+      "is_symmetry_representative": true,
+      "seed_frac_x": 0.083333333333333,
+      "seed_frac_y": 0.0,
+      "seed_frac_z": 0.266666666666667,
+      "geometry_seed_candidate_id": 1,
+      "geometry_seed_source_method": "grid",
+      "probe_element": "Li",
+      "probe_oxidation_state": 1,
+      "probe_coordination": 3,
+      "probe_radius_A": null,
+      "probe_radius_source": "unresolved",
+      "probe_radius_issue": "Нет радиуса Шеннона и стандартного ионного радиуса",
+      "probe_radius_warning": "",
+      "free_radius_A": 0.290857319803183,
+      "minimum_free_radius_A": null,
+      "free_radius_complete": true,
+      "geometry_margin_A": null,
+      "full_radius_margin_A": null,
+      "geometry_status": "indeterminate",
+      "full_radius_status": "indeterminate",
+      "geometry_limiting_site_index": 13,
+      "geometry_limiting_element": "O",
+      "geometry_unresolved_sites": 0,
+      "geometry_reason": "missing_site_or_probe_radius",
+      "refinement_success": true,
+      "refinement_accepted": false,
+      "refinement_message": "Optimization terminated successfully",
+      "refinement_displacement_A": 0.0
+    },
+    {
+      "candidate_id": 24,
+      "source_candidate_id": 0,
+      "frac_x": 0.333333333333333,
+      "frac_y": 0.0,
+      "frac_z": 0.266666666666667,
+      "cart_x_A": 1.604470443333333,
+      "cart_y_A": 0.0,
+      "cart_z_A": 1.615324474666667,
+      "nearest_atom_center_A": 1.847397810685322,
+      "source_method": "voronoi",
+      "merge_cluster_id": 4,
+      "merge_member_count": 4,
+      "merge_representative_candidate_id": 24,
+      "merge_member_candidate_ids": [
+        4,
+        24,
+        122,
+        123
+      ],
+      "merge_source_methods": [
+        "grid",
+        "voronoi"
+      ],
+      "is_merge_representative": true,
+      "symmetry_group_id": 3,
+      "is_symmetry_representative": true,
+      "seed_frac_x": 0.333333333333333,
+      "seed_frac_y": 0.0,
+      "seed_frac_z": 0.266666666666667,
+      "geometry_seed_candidate_id": 4,
+      "geometry_seed_source_method": "grid",
+      "probe_element": "Li",
+      "probe_oxidation_state": 1,
+      "probe_coordination": 5,
+      "probe_radius_A": null,
+      "probe_radius_source": "unresolved",
+      "probe_radius_issue": "Нет радиуса Шеннона и стандартного ионного радиуса",
+      "probe_radius_warning": "",
+      "free_radius_A": 0.467397810685322,
+      "minimum_free_radius_A": null,
+      "free_radius_complete": true,
+      "geometry_margin_A": null,
+      "full_radius_margin_A": null,
+      "geometry_status": "indeterminate",
+      "full_radius_status": "indeterminate",
+      "geometry_limiting_site_index": 10,
+      "geometry_limiting_element": "O",
+      "geometry_unresolved_sites": 0,
+      "geometry_reason": "missing_site_or_probe_radius",
+      "refinement_success": true,
+      "refinement_accepted": false,
+      "refinement_message": "Optimization terminated successfully",
+      "refinement_displacement_A": 0.0
+    },
+    {
+      "candidate_id": 6,
+      "source_candidate_id": 6,
+      "frac_x": 0.333333333333333,
+      "frac_y": 0.076923076923077,
+      "frac_z": 0.133333333333333,
+      "cart_x_A": 1.604470443333333,
+      "cart_y_A": 0.40015201,
+      "cart_z_A": 0.807662237333334,
+      "nearest_atom_center_A": 1.670628266745446,
+      "source_method": "grid",
+      "merge_cluster_id": 6,
+      "merge_member_count": 1,
+      "merge_representative_candidate_id": 6,
+      "merge_member_candidate_ids": [
+        6
+      ],
+      "merge_source_methods": [
+        "grid"
+      ],
+      "is_merge_representative": true,
+      "symmetry_group_id": 4,
+      "is_symmetry_representative": true,
+      "seed_frac_x": 0.333333333333333,
+      "seed_frac_y": 0.076923076923077,
+      "seed_frac_z": 0.133333333333333,
+      "geometry_seed_candidate_id": 6,
+      "geometry_seed_source_method": "grid",
+      "probe_element": "Li",
+      "probe_oxidation_state": 1,
+      "probe_coordination": 3,
+      "probe_radius_A": null,
+      "probe_radius_source": "unresolved",
+      "probe_radius_issue": "Нет радиуса Шеннона и стандартного ионного радиуса",
+      "probe_radius_warning": "",
+      "free_radius_A": 0.290628266745446,
+      "minimum_free_radius_A": null,
+      "free_radius_complete": true,
+      "geometry_margin_A": null,
+      "full_radius_margin_A": null,
+      "geometry_status": "indeterminate",
+      "full_radius_status": "indeterminate",
+      "geometry_limiting_site_index": 14,
+      "geometry_limiting_element": "O",
+      "geometry_unresolved_sites": 0,
+      "geometry_reason": "missing_site_or_probe_radius",
+      "refinement_success": true,
+      "refinement_accepted": false,
+      "refinement_message": "Optimization terminated successfully",
+      "refinement_displacement_A": 0.0
+    },
+    {
+      "candidate_id": 27,
+      "source_candidate_id": 3,
+      "frac_x": 0.333333333333333,
+      "frac_y": 0.115384615384615,
+      "frac_z": 0.066666666666667,
+      "cart_x_A": 1.604470443333333,
+      "cart_y_A": 0.600228015,
+      "cart_z_A": 0.403831118666667,
+      "nearest_atom_center_A": 1.650315031073426,
+      "source_method": "voronoi",
+      "merge_cluster_id": 8,
+      "merge_member_count": 4,
+      "merge_representative_candidate_id": 27,
+      "merge_member_candidate_ids": [
+        8,
+        27,
+        28,
+        29
+      ],
+      "merge_source_methods": [
+        "grid",
+        "voronoi"
+      ],
+      "is_merge_representative": true,
+      "symmetry_group_id": 5,
+      "is_symmetry_representative": true,
+      "seed_frac_x": 0.333333333333333,
+      "seed_frac_y": 0.115384615384615,
+      "seed_frac_z": 0.066666666666667,
+      "geometry_seed_candidate_id": 8,
+      "geometry_seed_source_method": "grid",
+      "probe_element": "Li",
+      "probe_oxidation_state": 1,
+      "probe_coordination": 3,
+      "probe_radius_A": null,
+      "probe_radius_source": "unresolved",
+      "probe_radius_issue": "Нет радиуса Шеннона и стандартного ионного радиуса",
+      "probe_radius_warning": "",
+      "free_radius_A": 0.270315031073426,
+      "minimum_free_radius_A": null,
+      "free_radius_complete": true,
+      "geometry_margin_A": null,
+      "full_radius_margin_A": null,
+      "geometry_status": "indeterminate",
+      "full_radius_status": "indeterminate",
+      "geometry_limiting_site_index": 14,
+      "geometry_limiting_element": "O",
+      "geometry_unresolved_sites": 0,
+      "geometry_reason": "missing_site_or_probe_radius",
+      "refinement_success": true,
+      "refinement_accepted": false,
+      "refinement_message": "Optimization terminated successfully",
+      "refinement_displacement_A": 0.0
+    },
+    {
+      "candidate_id": 30,
+      "source_candidate_id": 6,
+      "frac_x": 0.333333333333333,
+      "frac_y": 0.269230769230769,
+      "frac_z": 0.0,
+      "cart_x_A": 1.604470443333333,
+      "cart_y_A": 1.400532035,
+      "cart_z_A": 1.84003333326039e-16,
+      "nearest_atom_center_A": 1.673820434888124,
+      "source_method": "voronoi",
+      "merge_cluster_id": 10,
+      "merge_member_count": 2,
+      "merge_representative_candidate_id": 30,
+      "merge_member_candidate_ids": [
+        10,
+        30
+      ],
+      "merge_source_methods": [
+        "grid",
+        "voronoi"
+      ],
+      "is_merge_representative": true,
+      "symmetry_group_id": 6,
+      "is_symmetry_representative": true,
+      "seed_frac_x": 0.333333333333333,
+      "seed_frac_y": 0.269230769230769,
+      "seed_frac_z": 0.0,
+      "geometry_seed_candidate_id": 10,
+      "geometry_seed_source_method": "grid",
+      "probe_element": "Li",
+      "probe_oxidation_state": 1,
+      "probe_coordination": 3,
+      "probe_radius_A": null,
+      "probe_radius_source": "unresolved",
+      "probe_radius_issue": "Нет радиуса Шеннона и стандартного ионного радиуса",
+      "probe_radius_warning": "",
+      "free_radius_A": 0.301529529315296,
+      "minimum_free_radius_A": null,
+      "free_radius_complete": true,
+      "geometry_margin_A": null,
+      "full_radius_margin_A": null,
+      "geometry_status": "indeterminate",
+      "full_radius_status": "indeterminate",
+      "geometry_limiting_site_index": 8,
+      "geometry_limiting_element": "O",
+      "geometry_unresolved_sites": 0,
+      "geometry_reason": "missing_site_or_probe_radius",
+      "refinement_success": true,
+      "refinement_accepted": false,
+      "refinement_message": "Optimization terminated successfully",
+      "refinement_displacement_A": 0.0
+    },
+    {
+      "candidate_id": 26,
+      "source_candidate_id": 2,
+      "frac_x": 0.299605402142784,
+      "frac_y": 0.077492567475621,
+      "frac_z": 0.343466389909599,
+      "cart_x_A": 1.442124037203285,
+      "cart_y_A": 0.403114486260595,
+      "cart_z_A": 2.080536246923926,
+      "nearest_atom_center_A": 1.73807411766599,
+      "source_method": "voronoi",
+      "merge_cluster_id": 24,
+      "merge_member_count": 2,
+      "merge_representative_candidate_id": 26,
+      "merge_member_candidate_ids": [
+        26,
+        63
+      ],
+      "merge_source_methods": [
+        "voronoi"
+      ],
+      "is_merge_representative": true,
+      "symmetry_group_id": 8,
+      "is_symmetry_representative": true,
+      "seed_frac_x": 0.299605402142784,
+      "seed_frac_y": 0.077492567475621,
+      "seed_frac_z": 0.343466389909599,
+      "geometry_seed_candidate_id": 26,
+      "geometry_seed_source_method": "voronoi",
+      "probe_element": "Li",
+      "probe_oxidation_state": 1,
+      "probe_coordination": 3,
+      "probe_radius_A": null,
+      "probe_radius_source": "unresolved",
+      "probe_radius_issue": "Нет радиуса Шеннона и стандартного ионного радиуса",
+      "probe_radius_warning": "",
+      "free_radius_A": 0.35807411766599,
+      "minimum_free_radius_A": null,
+      "free_radius_complete": true,
+      "geometry_margin_A": null,
+      "full_radius_margin_A": null,
+      "geometry_status": "indeterminate",
+      "full_radius_status": "indeterminate",
+      "geometry_limiting_site_index": 13,
+      "geometry_limiting_element": "O",
+      "geometry_unresolved_sites": 0,
+      "geometry_reason": "missing_site_or_probe_radius",
+      "refinement_success": true,
+      "refinement_accepted": false,
+      "refinement_message": "Optimization terminated successfully",
+      "refinement_displacement_A": 0.0
+    },
+    {
+      "candidate_id": 31,
+      "source_candidate_id": 7,
+      "frac_x": 0.772020171531444,
+      "frac_y": 0.482136703617137,
+      "frac_z": 0.103480805564645,
+      "cart_x_A": 3.716050640637994,
+      "cart_y_A": 2.508063623613233,
+      "cart_z_A": 0.626831542075476,
+      "nearest_atom_center_A": 1.746883207489964,
+      "source_method": "voronoi",
+      "merge_cluster_id": 25,
+      "merge_member_count": 1,
+      "merge_representative_candidate_id": 31,
+      "merge_member_candidate_ids": [
+        31
+      ],
+      "merge_source_methods": [
+        "voronoi"
+      ],
+      "is_merge_representative": true,
+      "symmetry_group_id": 9,
+      "is_symmetry_representative": true,
+      "seed_frac_x": 0.772020171531444,
+      "seed_frac_y": 0.482136703617137,
+      "seed_frac_z": 0.103480805564645,
+      "geometry_seed_candidate_id": 31,
+      "geometry_seed_source_method": "voronoi",
+      "probe_element": "Li",
+      "probe_oxidation_state": 1,
+      "probe_coordination": 3,
+      "probe_radius_A": null,
+      "probe_radius_source": "unresolved",
+      "probe_radius_issue": "Нет радиуса Шеннона и стандартного ионного радиуса",
+      "probe_radius_warning": "",
+      "free_radius_A": 0.366883207489964,
+      "minimum_free_radius_A": null,
+      "free_radius_complete": true,
+      "geometry_margin_A": null,
+      "full_radius_margin_A": null,
+      "geometry_status": "indeterminate",
+      "full_radius_status": "indeterminate",
+      "geometry_limiting_site_index": 11,
+      "geometry_limiting_element": "O",
+      "geometry_unresolved_sites": 0,
+      "geometry_reason": "missing_site_or_probe_radius",
+      "refinement_success": true,
+      "refinement_accepted": false,
+      "refinement_message": "Optimization terminated successfully",
+      "refinement_displacement_A": 0.0
+    },
+    {
+      "candidate_id": 32,
+      "source_candidate_id": 8,
+      "frac_x": 0.348345918900881,
+      "frac_y": 0.298252390853654,
+      "frac_z": 4.02351071876581e-18,
+      "cart_x_A": 1.676732192796764,
+      "cart_y_A": 1.551501817936138,
+      "cart_z_A": 2.22044604925031e-16,
+      "nearest_atom_center_A": 1.715602005117649,
+      "source_method": "voronoi",
+      "merge_cluster_id": 26,
+      "merge_member_count": 1,
+      "merge_representative_candidate_id": 32,
+      "merge_member_candidate_ids": [
+        32
+      ],
+      "merge_source_methods": [
+        "voronoi"
+      ],
+      "is_merge_representative": true,
+      "symmetry_group_id": 10,
+      "is_symmetry_representative": true,
+      "seed_frac_x": 0.348345918900881,
+      "seed_frac_y": 0.298252390853654,
+      "seed_frac_z": 4.02351071876581e-18,
+      "geometry_seed_candidate_id": 32,
+      "geometry_seed_source_method": "voronoi",
+      "probe_element": "Li",
+      "probe_oxidation_state": 1,
+      "probe_coordination": 3,
+      "probe_radius_A": null,
+      "probe_radius_source": "unresolved",
+      "probe_radius_issue": "Нет радиуса Шеннона и стандартного ионного радиуса",
+      "probe_radius_warning": "",
+      "free_radius_A": 0.33560200511765,
+      "minimum_free_radius_A": null,
+      "free_radius_complete": true,
+      "geometry_margin_A": null,
+      "full_radius_margin_A": null,
+      "geometry_status": "indeterminate",
+      "full_radius_status": "indeterminate",
+      "geometry_limiting_site_index": 11,
+      "geometry_limiting_element": "O",
+      "geometry_unresolved_sites": 0,
+      "geometry_reason": "missing_site_or_probe_radius",
+      "refinement_success": true,
+      "refinement_accepted": false,
+      "refinement_message": "Optimization terminated successfully",
+      "refinement_displacement_A": 0.0
+    },
+    {
+      "candidate_id": 33,
+      "source_candidate_id": 9,
+      "frac_x": 0.146529135731987,
+      "frac_y": 0.477512583024312,
+      "frac_z": 0.531813918996453,
+      "cart_x_A": 0.705305002107454,
+      "cart_y_A": 2.484009058667114,
+      "cart_z_A": 3.221445147462626,
+      "nearest_atom_center_A": 1.798808253358221,
+      "source_method": "voronoi",
+      "merge_cluster_id": 27,
+      "merge_member_count": 1,
+      "merge_representative_candidate_id": 33,
+      "merge_member_candidate_ids": [
+        33
+      ],
+      "merge_source_methods": [
+        "voronoi"
+      ],
+      "is_merge_representative": true,
+      "symmetry_group_id": 11,
+      "is_symmetry_representative": true,
+      "seed_frac_x": 0.146529135731987,
+      "seed_frac_y": 0.477512583024312,
+      "seed_frac_z": 0.531813918996453,
+      "geometry_seed_candidate_id": 33,
+      "geometry_seed_source_method": "voronoi",
+      "probe_element": "Li",
+      "probe_oxidation_state": 1,
+      "probe_coordination": 3,
+      "probe_radius_A": null,
+      "probe_radius_source": "unresolved",
+      "probe_radius_issue": "Нет радиуса Шеннона и стандартного ионного радиуса",
+      "probe_radius_warning": "",
+      "free_radius_A": 0.418808253358221,
+      "minimum_free_radius_A": null,
+      "free_radius_complete": true,
+      "geometry_margin_A": null,
+      "full_radius_margin_A": null,
+      "geometry_status": "indeterminate",
+      "full_radius_status": "indeterminate",
+      "geometry_limiting_site_index": 8,
+      "geometry_limiting_element": "O",
+      "geometry_unresolved_sites": 0,
+      "geometry_reason": "missing_site_or_probe_radius",
+      "refinement_success": true,
+      "refinement_accepted": false,
+      "refinement_message": "Optimization terminated successfully",
+      "refinement_displacement_A": 0.0
+    },
+    {
+      "candidate_id": 35,
+      "source_candidate_id": 11,
+      "frac_x": 0.347022494271443,
+      "frac_y": 0.532057716162936,
+      "frac_z": 0.438286842390439,
+      "cart_x_A": 1.670362005691026,
+      "cart_y_A": 2.767751539261906,
+      "cart_z_A": 2.654907987891179,
+      "nearest_atom_center_A": 1.73726441339459,
+      "source_method": "voronoi",
+      "merge_cluster_id": 29,
+      "merge_member_count": 1,
+      "merge_representative_candidate_id": 35,
+      "merge_member_candidate_ids": [
+        35
+      ],
+      "merge_source_methods": [
+        "voronoi"
+      ],
+      "is_merge_representative": true,
+      "symmetry_group_id": 13,
+      "is_symmetry_representative": true,
+      "seed_frac_x": 0.347022494271443,
+      "seed_frac_y": 0.532057716162936,
+      "seed_frac_z": 0.438286842390439,
+      "geometry_seed_candidate_id": 35,
+      "geometry_seed_source_method": "voronoi",
+      "probe_element": "Li",
+      "probe_oxidation_state": 1,
+      "probe_coordination": 2,
+      "probe_radius_A": null,
+      "probe_radius_source": "unresolved",
+      "probe_radius_issue": "Нет радиуса Шеннона и стандартного ионного радиуса",
+      "probe_radius_warning": "",
+      "free_radius_A": 0.35726441339459,
+      "minimum_free_radius_A": null,
+      "free_radius_complete": true,
+      "geometry_margin_A": null,
+      "full_radius_margin_A": null,
+      "geometry_status": "indeterminate",
+      "full_radius_status": "indeterminate",
+      "geometry_limiting_site_index": 10,
+      "geometry_limiting_element": "O",
+      "geometry_unresolved_sites": 0,
+      "geometry_reason": "missing_site_or_probe_radius",
+      "refinement_success": true,
+      "refinement_accepted": false,
+      "refinement_message": "Optimization terminated successfully",
+      "refinement_displacement_A": 0.0
+    },
+    {
+      "candidate_id": 43,
+      "source_candidate_id": 19,
+      "frac_x": 0.800883936596295,
+      "frac_y": 0.446610514261442,
+      "frac_z": 0.868682059001768,
+      "cart_x_A": 3.854983814427609,
+      "cart_y_A": 2.323257234595045,
+      "cart_z_A": 5.262012714785209,
+      "nearest_atom_center_A": 1.698780721769284,
+      "source_method": "voronoi",
+      "merge_cluster_id": 34,
+      "merge_member_count": 1,
+      "merge_representative_candidate_id": 43,
+      "merge_member_candidate_ids": [
+        43
+      ],
+      "merge_source_methods": [
+        "voronoi"
+      ],
+      "is_merge_representative": true,
+      "symmetry_group_id": 16,
+      "is_symmetry_representative": true,
+      "seed_frac_x": 0.800883936596295,
+      "seed_frac_y": 0.446610514261442,
+      "seed_frac_z": 0.868682059001768,
+      "geometry_seed_candidate_id": 43,
+      "geometry_seed_source_method": "voronoi",
+      "probe_element": "Li",
+      "probe_oxidation_state": 1,
+      "probe_coordination": 3,
+      "probe_radius_A": null,
+      "probe_radius_source": "unresolved",
+      "probe_radius_issue": "Нет радиуса Шеннона и стандартного ионного радиуса",
+      "probe_radius_warning": "",
+      "free_radius_A": 0.318780721769284,
+      "minimum_free_radius_A": null,
+      "free_radius_complete": true,
+      "geometry_margin_A": null,
+      "full_radius_margin_A": null,
+      "geometry_status": "indeterminate",
+      "full_radius_status": "indeterminate",
+      "geometry_limiting_site_index": 8,
+      "geometry_limiting_element": "O",
+      "geometry_unresolved_sites": 0,
+      "geometry_reason": "missing_site_or_probe_radius",
+      "refinement_success": true,
+      "refinement_accepted": false,
+      "refinement_message": "Optimization terminated successfully",
+      "refinement_displacement_A": 0.0
+    },
+    {
+      "candidate_id": 45,
+      "source_candidate_id": 21,
+      "frac_x": 0.3392477832695,
+      "frac_y": 0.91111639492907,
+      "frac_z": 0.250072771201723,
+      "cart_x_A": 1.632939123666797,
+      "cart_y_A": 4.739605738072676,
+      "cart_z_A": 1.514807504136981,
+      "nearest_atom_center_A": 1.759739583006095,
+      "source_method": "voronoi",
+      "merge_cluster_id": 36,
+      "merge_member_count": 1,
+      "merge_representative_candidate_id": 45,
+      "merge_member_candidate_ids": [
+        45
+      ],
+      "merge_source_methods": [
+        "voronoi"
+      ],
+      "is_merge_representative": true,
+      "symmetry_group_id": 17,
+      "is_symmetry_representative": true,
+      "seed_frac_x": 0.3392477832695,
+      "seed_frac_y": 0.91111639492907,
+      "seed_frac_z": 0.250072771201723,
+      "geometry_seed_candidate_id": 45,
+      "geometry_seed_source_method": "voronoi",
+      "probe_element": "Li",
+      "probe_oxidation_state": 1,
+      "probe_coordination": 5,
+      "probe_radius_A": null,
+      "probe_radius_source": "unresolved",
+      "probe_radius_issue": "Нет радиуса Шеннона и стандартного ионного радиуса",
+      "probe_radius_warning": "",
+      "free_radius_A": 0.379739583006095,
+      "minimum_free_radius_A": null,
+      "free_radius_complete": true,
+      "geometry_margin_A": null,
+      "full_radius_margin_A": null,
+      "geometry_status": "indeterminate",
+      "full_radius_status": "indeterminate",
+      "geometry_limiting_site_index": 12,
+      "geometry_limiting_element": "O",
+      "geometry_unresolved_sites": 0,
+      "geometry_reason": "missing_site_or_probe_radius",
+      "refinement_success": true,
+      "refinement_accepted": false,
+      "refinement_message": "Optimization terminated successfully",
+      "refinement_displacement_A": 0.0
+    },
+    {
+      "candidate_id": 54,
+      "source_candidate_id": 30,
+      "frac_x": 0.307456179548809,
+      "frac_y": 0.855723626888204,
+      "frac_z": 0.23505795408556,
+      "cart_x_A": 1.479913058118749,
+      "cart_y_A": 4.451453880949461,
+      "cart_z_A": 1.423855748248046,
+      "nearest_atom_center_A": 1.726320071440331,
+      "source_method": "voronoi",
+      "merge_cluster_id": 43,
+      "merge_member_count": 2,
+      "merge_representative_candidate_id": 54,
+      "merge_member_candidate_ids": [
+        54,
+        85
+      ],
+      "merge_source_methods": [
+        "voronoi"
+      ],
+      "is_merge_representative": true,
+      "symmetry_group_id": 18,
+      "is_symmetry_representative": true,
+      "seed_frac_x": 0.307456179548809,
+      "seed_frac_y": 0.855723626888204,
+      "seed_frac_z": 0.23505795408556,
+      "geometry_seed_candidate_id": 54,
+      "geometry_seed_source_method": "voronoi",
+      "probe_element": "Li",
+      "probe_oxidation_state": 1,
+      "probe_coordination": 3,
+      "probe_radius_A": null,
+      "probe_radius_source": "unresolved",
+      "probe_radius_issue": "Нет радиуса Шеннона и стандартного ионного радиуса",
+      "probe_radius_warning": "",
+      "free_radius_A": 0.346320071440332,
+      "minimum_free_radius_A": null,
+      "free_radius_complete": true,
+      "geometry_margin_A": null,
+      "full_radius_margin_A": null,
+      "geometry_status": "indeterminate",
+      "full_radius_status": "indeterminate",
+      "geometry_limiting_site_index": 10,
+      "geometry_limiting_element": "O",
+      "geometry_unresolved_sites": 0,
+      "geometry_reason": "missing_site_or_probe_radius",
+      "refinement_success": true,
+      "refinement_accepted": false,
+      "refinement_message": "Optimization terminated successfully",
+      "refinement_displacement_A": 0.0
+    },
+    {
+      "candidate_id": 61,
+      "source_candidate_id": 37,
+      "frac_x": 0.325640090015156,
+      "frac_y": 0.322465105458234,
+      "frac_z": 0.5,
+      "cart_x_A": 1.56743969878117,
+      "cart_y_A": 1.677455781351668,
+      "cart_z_A": 3.02873339,
+      "nearest_atom_center_A": 1.745165184329195,
+      "source_method": "voronoi",
+      "merge_cluster_id": 48,
+      "merge_member_count": 1,
+      "merge_representative_candidate_id": 61,
+      "merge_member_candidate_ids": [
+        61
+      ],
+      "merge_source_methods": [
+        "voronoi"
+      ],
+      "is_merge_representative": true,
+      "symmetry_group_id": 21,
+      "is_symmetry_representative": true,
+      "seed_frac_x": 0.325640090015156,
+      "seed_frac_y": 0.322465105458234,
+      "seed_frac_z": 0.5,
+      "geometry_seed_candidate_id": 61,
+      "geometry_seed_source_method": "voronoi",
+      "probe_element": "Li",
+      "probe_oxidation_state": 1,
+      "probe_coordination": 3,
+      "probe_radius_A": null,
+      "probe_radius_source": "unresolved",
+      "probe_radius_issue": "Нет радиуса Шеннона и стандартного ионного радиуса",
+      "probe_radius_warning": "",
+      "free_radius_A": 0.365165184329196,
+      "minimum_free_radius_A": null,
+      "free_radius_complete": true,
+      "geometry_margin_A": null,
+      "full_radius_margin_A": null,
+      "geometry_status": "indeterminate",
+      "full_radius_status": "indeterminate",
+      "geometry_limiting_site_index": 9,
+      "geometry_limiting_element": "O",
+      "geometry_unresolved_sites": 0,
+      "geometry_reason": "missing_site_or_probe_radius",
+      "refinement_success": true,
+      "refinement_accepted": false,
+      "refinement_message": "Optimization terminated successfully",
+      "refinement_displacement_A": 0.0
+    },
+    {
+      "candidate_id": 62,
+      "source_candidate_id": 38,
+      "frac_x": 0.336749920926505,
+      "frac_y": 0.032900522884271,
+      "frac_z": 0.30719832849866,
+      "cart_x_A": 1.620915884764245,
+      "cart_y_A": 0.171147734708494,
+      "cart_z_A": 1.860843669752163,
+      "nearest_atom_center_A": 1.775839655539464,
+      "source_method": "voronoi",
+      "merge_cluster_id": 49,
+      "merge_member_count": 1,
+      "merge_representative_candidate_id": 62,
+      "merge_member_candidate_ids": [
+        62
+      ],
+      "merge_source_methods": [
+        "voronoi"
+      ],
+      "is_merge_representative": true,
+      "symmetry_group_id": 22,
+      "is_symmetry_representative": true,
+      "seed_frac_x": 0.336749920926505,
+      "seed_frac_y": 0.032900522884271,
+      "seed_frac_z": 0.30719832849866,
+      "geometry_seed_candidate_id": 62,
+      "geometry_seed_source_method": "voronoi",
+      "probe_element": "Li",
+      "probe_oxidation_state": 1,
+      "probe_coordination": 5,
+      "probe_radius_A": null,
+      "probe_radius_source": "unresolved",
+      "probe_radius_issue": "Нет радиуса Шеннона и стандартного ионного радиуса",
+      "probe_radius_warning": "",
+      "free_radius_A": 0.395839655539465,
+      "minimum_free_radius_A": null,
+      "free_radius_complete": true,
+      "geometry_margin_A": null,
+      "full_radius_margin_A": null,
+      "geometry_status": "indeterminate",
+      "full_radius_status": "indeterminate",
+      "geometry_limiting_site_index": 9,
+      "geometry_limiting_element": "O",
+      "geometry_unresolved_sites": 0,
+      "geometry_reason": "missing_site_or_probe_radius",
+      "refinement_success": true,
+      "refinement_accepted": false,
+      "refinement_message": "Optimization terminated successfully",
+      "refinement_displacement_A": 0.0
+    },
+    {
+      "candidate_id": 74,
+      "source_candidate_id": 50,
+      "frac_x": 0.6681725365269,
+      "frac_y": 0.447070586958952,
+      "frac_z": 0.5,
+      "cart_x_A": 3.216189257713422,
+      "cart_y_A": 2.325650521785556,
+      "cart_z_A": 3.028733390000001,
+      "nearest_atom_center_A": 1.799297981399386,
+      "source_method": "voronoi",
+      "merge_cluster_id": 56,
+      "merge_member_count": 1,
+      "merge_representative_candidate_id": 74,
+      "merge_member_candidate_ids": [
+        74
+      ],
+      "merge_source_methods": [
+        "voronoi"
+      ],
+      "is_merge_representative": true,
+      "symmetry_group_id": 24,
+      "is_symmetry_representative": true,
+      "seed_frac_x": 0.6681725365269,
+      "seed_frac_y": 0.447070586958952,
+      "seed_frac_z": 0.5,
+      "geometry_seed_candidate_id": 74,
+      "geometry_seed_source_method": "voronoi",
+      "probe_element": "Li",
+      "probe_oxidation_state": 1,
+      "probe_coordination": 3,
+      "probe_radius_A": null,
+      "probe_radius_source": "unresolved",
+      "probe_radius_issue": "Нет радиуса Шеннона и стандартного ионного радиуса",
+      "probe_radius_warning": "",
+      "free_radius_A": 0.419297981399386,
+      "minimum_free_radius_A": null,
+      "free_radius_complete": true,
+      "geometry_margin_A": null,
+      "full_radius_margin_A": null,
+      "geometry_status": "indeterminate",
+      "full_radius_status": "indeterminate",
+      "geometry_limiting_site_index": 15,
+      "geometry_limiting_element": "O",
+      "geometry_unresolved_sites": 0,
+      "geometry_reason": "missing_site_or_probe_radius",
+      "refinement_success": true,
+      "refinement_accepted": false,
+      "refinement_message": "Optimization terminated successfully",
+      "refinement_displacement_A": 0.0
+    },
+    {
+      "candidate_id": 88,
+      "source_candidate_id": 64,
+      "frac_x": 0.260002924827314,
+      "frac_y": 0.553590777744491,
+      "frac_z": 1.02392132490453e-17,
+      "cart_x_A": 1.251501024196929,
+      "cart_y_A": 2.879766011614977,
+      "cart_z_A": 3.14990841700929e-16,
+      "nearest_atom_center_A": 1.922950562434957,
+      "source_method": "voronoi",
+      "merge_cluster_id": 59,
+      "merge_member_count": 1,
+      "merge_representative_candidate_id": 88,
+      "merge_member_candidate_ids": [
+        88
+      ],
+      "merge_source_methods": [
+        "voronoi"
+      ],
+      "is_merge_representative": true,
+      "symmetry_group_id": 26,
+      "is_symmetry_representative": true,
+      "seed_frac_x": 0.260002924827314,
+      "seed_frac_y": 0.553590777744491,
+      "seed_frac_z": 1.02392132490453e-17,
+      "geometry_seed_candidate_id": 88,
+      "geometry_seed_source_method": "voronoi",
+      "probe_element": "Li",
+      "probe_oxidation_state": 1,
+      "probe_coordination": 3,
+      "probe_radius_A": null,
+      "probe_radius_source": "unresolved",
+      "probe_radius_issue": "Нет радиуса Шеннона и стандартного ионного радиуса",
+      "probe_radius_warning": "",
+      "free_radius_A": 0.542950562434957,
+      "minimum_free_radius_A": null,
+      "free_radius_complete": true,
+      "geometry_margin_A": null,
+      "full_radius_margin_A": null,
+      "geometry_status": "indeterminate",
+      "full_radius_status": "indeterminate",
+      "geometry_limiting_site_index": 8,
+      "geometry_limiting_element": "O",
+      "geometry_unresolved_sites": 0,
+      "geometry_reason": "missing_site_or_probe_radius",
+      "refinement_success": true,
+      "refinement_accepted": false,
+      "refinement_message": "Optimization terminated successfully",
+      "refinement_displacement_A": 0.0
+    },
+    {
+      "candidate_id": 89,
+      "source_candidate_id": 65,
+      "frac_x": 0.262437087319725,
+      "frac_y": 0.570081187723089,
+      "frac_z": 0.033781006293601,
+      "cart_x_A": 1.263217649516964,
+      "cart_y_A": 2.965548730697558,
+      "cart_z_A": 0.204627323418457,
+      "nearest_atom_center_A": 1.860489522697486,
+      "source_method": "voronoi",
+      "merge_cluster_id": 60,
+      "merge_member_count": 1,
+      "merge_representative_candidate_id": 89,
+      "merge_member_candidate_ids": [
+        89
+      ],
+      "merge_source_methods": [
+        "voronoi"
+      ],
+      "is_merge_representative": true,
+      "symmetry_group_id": 27,
+      "is_symmetry_representative": true,
+      "seed_frac_x": 0.262437087319725,
+      "seed_frac_y": 0.570081187723089,
+      "seed_frac_z": 0.033781006293601,
+      "geometry_seed_candidate_id": 89,
+      "geometry_seed_source_method": "voronoi",
+      "probe_element": "Li",
+      "probe_oxidation_state": 1,
+      "probe_coordination": 3,
+      "probe_radius_A": null,
+      "probe_radius_source": "unresolved",
+      "probe_radius_issue": "Нет радиуса Шеннона и стандартного ионного радиуса",
+      "probe_radius_warning": "",
+      "free_radius_A": 0.480489522697487,
+      "minimum_free_radius_A": null,
+      "free_radius_complete": true,
+      "geometry_margin_A": null,
+      "full_radius_margin_A": null,
+      "geometry_status": "indeterminate",
+      "full_radius_status": "indeterminate",
+      "geometry_limiting_site_index": 14,
+      "geometry_limiting_element": "O",
+      "geometry_unresolved_sites": 0,
+      "geometry_reason": "missing_site_or_probe_radius",
+      "refinement_success": true,
+      "refinement_accepted": false,
+      "refinement_message": "Optimization terminated successfully",
+      "refinement_displacement_A": 0.0
+    }
+  ]
+}

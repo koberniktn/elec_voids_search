@@ -1,0 +1,16 @@
+{
+  "settings": {
+    "probe_element": "Li",
+    "distance_tolerance_A": 0.1,
+    "numeric_tolerance_A": 1e-08,
+    "symmetry_symprec_A": 0.1,
+    "symmetry_angle_tolerance_deg": 5.0
+  },
+  "reference_statistic": "mean_over_all_occupied_sites_of_nearest_other_periodic_probe_distance",
+  "pass_rule": "nearest_distance + distance_tolerance_A + numeric_tolerance_A >= mean_distance",
+  "structure_file": "/Users/irinabrodyagina/Desktop/РНФ_поиск_пор/kobernik_voids/cifs/Li10Ge(PS6)2.cif",
+  "structure_sha256": "9e4d6eed74f89969910e997bd35d6053bb0523012938ca25aa14efdee2734b0d",
+  "saved_geometry_source": "/Users/irinabrodyagina/Desktop/РНФ_поиск_пор/elec_voids_results/pipeline_compact_20261024_200915/Li10Ge(PS6)2/candidates.csv",
+  "saved_geometry_source_sha256": "6e135f3da0bc5da5aef8ffd3c3335165ef8396ddb1b6a8b4102facbabd233cae",
+  "search_and_geometry_rerun": false
+}

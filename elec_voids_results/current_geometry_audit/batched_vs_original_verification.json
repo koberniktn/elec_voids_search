@@ -1,0 +1,30 @@
+[
+  {
+    "structure": "LATP_sc_integer152_stoichiometric",
+    "all_counts_ids_groups_statuses_and_coordinates_match": true
+  },
+  {
+    "structure": "LLZO_cub_ga",
+    "all_counts_ids_groups_statuses_and_coordinates_match": true
+  },
+  {
+    "structure": "Li10Ge(PS6)2",
+    "all_counts_ids_groups_statuses_and_coordinates_match": true
+  },
+  {
+    "structure": "Li3PO4",
+    "all_counts_ids_groups_statuses_and_coordinates_match": true
+  },
+  {
+    "structure": "LiCl",
+    "all_counts_ids_groups_statuses_and_coordinates_match": true
+  },
+  {
+    "structure": "LiCl_one_Li_vacancy",
+    "all_counts_ids_groups_statuses_and_coordinates_match": true
+  },
+  {
+    "structure": "Li3PO4_one_Li_vacancy",
+    "all_counts_ids_groups_statuses_and_coordinates_match": true
+  }
+]

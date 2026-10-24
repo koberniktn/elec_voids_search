@@ -1,0 +1,1169 @@
+{
+  "method": "nonequivalent",
+  "parameters": {
+    "grid": {
+      "mesh_shape_core": [
+        54,
+        54,
+        30
+      ],
+      "n_grid_samples": 87480,
+      "n_grid_maximum_nodes": 126,
+      "n_grid_candidates": 126,
+      "resolution_A": 0.2
+    },
+    "voronoi": {
+      "n_voronoi_raw_vertices": 153,
+      "n_voronoi_candidates": 153,
+      "image_range": 1,
+      "duplicate_tolerance_A": 1e-06
+    },
+    "symprec_A": 0.1,
+    "symmetry_tolerance_A": 0.25,
+    "combination_order": [
+      "grid",
+      "voronoi"
+    ],
+    "radius_filter_applied": false
+  },
+  "coordinate_system": "fractional coordinates of the input cell; Cartesian in angstrom",
+  "lattice_matrix_A": [
+    [
+      11.188611,
+      0.0,
+      6.851048324027434e-16
+    ],
+    [
+      -5.594305499999997,
+      9.689621359062013,
+      6.851048324027434e-16
+    ],
+    [
+      0.0,
+      0.0,
+      6.020174
+    ]
+  ],
+  "host": {
+    "@module": "pymatgen.core.structure",
+    "@class": "Structure",
+    "charge": 0.0,
+    "lattice": {
+      "matrix": [
+        [
+          11.188611,
+          0.0,
+          6.851048324027434e-16
+        ],
+        [
+          -5.594305499999997,
+          9.689621359062013,
+          6.851048324027434e-16
+        ],
+        [
+          0.0,
+          0.0,
+          6.020174
+        ]
+      ],
+      "pbc": [
+        true,
+        true,
+        true
+      ],
+      "a": 11.188611,
+      "b": 11.188611,
+      "c": 6.020174,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 119.99999999999999,
+      "volume": 652.6675567578114
+    },
+    "properties": {},
+    "sites": [
+      {
+        "species": [
+          {
+            "element": "Li",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.34041,
+          0.0,
+          0.0
+        ],
+        "properties": {},
+        "label": "Li1",
+        "xyz": [
+          3.80871507051,
+          0.0,
+          2.3321653599821784e-16
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "Li",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.65959,
+          0.0,
+          0.0
+        ],
+        "properties": {},
+        "label": "Li2",
+        "xyz": [
+          7.37989592949,
+          0.0,
+          4.518882964045255e-16
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "Li",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.0,
+          0.34041,
+          0.0
+        ],
+        "properties": {},
+        "label": "Li3",
+        "xyz": [
+          -1.904357535254999,
+          3.2984440068382996,
+          2.3321653599821784e-16
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "Li",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.0,
+          0.65959,
+          0.0
+        ],
+        "properties": {},
+        "label": "Li4",
+        "xyz": [
+          -3.689947964744998,
+          6.391177352223713,
+          4.518882964045255e-16
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "Li",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.65959,
+          0.65959,
+          0.0
+        ],
+        "properties": {},
+        "label": "Li5",
+        "xyz": [
+          3.6899479647450018,
+          6.391177352223713,
+          9.03776592809051e-16
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "Li",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.34041,
+          0.34041,
+          0.0
+        ],
+        "properties": {},
+        "label": "Li6",
+        "xyz": [
+          1.9043575352550008,
+          3.2984440068382996,
+          4.664330719964357e-16
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "Li",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.3206,
+          0.0,
+          0.5
+        ],
+        "properties": {},
+        "label": "Li7",
+        "xyz": [
+          3.5870686866,
+          0.0,
+          3.010087
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "Li",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.0,
+          0.3206,
+          0.5
+        ],
+        "properties": {},
+        "label": "Li8",
+        "xyz": [
+          -1.793534343299999,
+          3.1064926077152815,
+          3.010087
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "Li",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.6794,
+          0.6794,
+          0.5
+        ],
+        "properties": {},
+        "label": "Li9",
+        "xyz": [
+          3.8007711567000015,
+          6.583128751346732,
+          3.010087000000001
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "Y",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "properties": {},
+        "label": "Y1",
+        "xyz": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "Y",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.3333333333333333,
+          0.6666666666666666,
+          0.5044
+        ],
+        "properties": {},
+        "label": "Y2",
+        "xyz": [
+          1.7763568394002505e-15,
+          6.459747572708008,
+          3.0365757656000008
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "Y",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.6666666666666666,
+          0.3333333333333333,
+          0.4956
+        ],
+        "properties": {},
+        "label": "Y3",
+        "xyz": [
+          5.594305500000001,
+          3.229873786354004,
+          2.983598234400001
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "Cl",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.11342,
+          0.88658,
+          0.76373
+        ],
+        "properties": {},
+        "label": "Cl1",
+        "xyz": [
+          -3.690787110569998,
+          8.5906245045172,
+          4.597787489020001
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "Cl",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.88658,
+          0.11342,
+          0.23627
+        ],
+        "properties": {},
+        "label": "Cl2",
+        "xyz": [
+          9.28509261057,
+          1.0989968545448137,
+          1.4223865109800007
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "Cl",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.11342,
+          0.22684,
+          0.76373
+        ],
+        "properties": {},
+        "label": "Cl3",
+        "xyz": [
+          4.440892098500626e-16,
+          2.1979937090896273,
+          4.59778748902
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "Cl",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.88658,
+          0.77316,
+          0.23627
+        ],
+        "properties": {},
+        "label": "Cl4",
+        "xyz": [
+          5.594305500000002,
+          7.4916276499723855,
+          1.4223865109800011
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "Cl",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.77316,
+          0.88658,
+          0.76373
+        ],
+        "properties": {},
+        "label": "Cl5",
+        "xyz": [
+          3.6907871105700014,
+          8.5906245045172,
+          4.597787489020001
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "Cl",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.22684,
+          0.11342,
+          0.23627
+        ],
+        "properties": {},
+        "label": "Cl6",
+        "xyz": [
+          1.9035183894300003,
+          1.0989968545448137,
+          1.4223865109800002
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "Cl",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.22067,
+          0.77933,
+          0.26863
+        ],
+        "properties": {},
+        "label": "Cl7",
+        "xyz": [
+          -1.8908193159449982,
+          7.551412613757798,
+          1.6171993416200006
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "Cl",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.77933,
+          0.22067,
+          0.73137
+        ],
+        "properties": {},
+        "label": "Cl8",
+        "xyz": [
+          7.485124815945,
+          2.1382087453042145,
+          4.402974658380001
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "Cl",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.22067,
+          0.44134,
+          0.26863
+        ],
+        "properties": {},
+        "label": "Cl9",
+        "xyz": [
+          8.881784197001252e-16,
+          4.276417490608429,
+          1.6171993416200003
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "Cl",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.77933,
+          0.55866,
+          0.73137
+        ],
+        "properties": {},
+        "label": "Cl10",
+        "xyz": [
+          5.594305500000001,
+          5.413203868453585,
+          4.402974658380001
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "Cl",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.55866,
+          0.77933,
+          0.26863
+        ],
+        "properties": {},
+        "label": "Cl11",
+        "xyz": [
+          1.8908193159450022,
+          7.551412613757798,
+          1.6171993416200008
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "Cl",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.44134,
+          0.22067,
+          0.73137
+        ],
+        "properties": {},
+        "label": "Cl12",
+        "xyz": [
+          3.7034861840550004,
+          2.1382087453042145,
+          4.402974658380001
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "Cl",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.44674,
+          0.55326,
+          0.75035
+        ],
+        "properties": {},
+        "label": "Cl13",
+        "xyz": [
+          1.903294617210002,
+          5.360879913114649,
+          4.517237560900001
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "Cl",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.55326,
+          0.44674,
+          0.24965
+        ],
+        "properties": {},
+        "label": "Cl14",
+        "xyz": [
+          3.6910108827900006,
+          4.328741445947363,
+          1.5029364391000006
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "Cl",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.44674,
+          0.89348,
+          0.75035
+        ],
+        "properties": {},
+        "label": "Cl15",
+        "xyz": [
+          2.6645352591003757e-15,
+          8.657482891894727,
+          4.517237560900001
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "Cl",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.55326,
+          0.10652,
+          0.24965
+        ],
+        "properties": {},
+        "label": "Cl16",
+        "xyz": [
+          5.5943055,
+          1.0321384671672857,
+          1.5029364391000004
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "Cl",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.10652,
+          0.55326,
+          0.75035
+        ],
+        "properties": {},
+        "label": "Cl17",
+        "xyz": [
+          -1.9032946172099983,
+          5.360879913114649,
+          4.517237560900001
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "Cl",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.89348,
+          0.44674,
+          0.24965
+        ],
+        "properties": {},
+        "label": "Cl18",
+        "xyz": [
+          7.497600117210002,
+          4.328741445947363,
+          1.5029364391000009
+        ]
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "candidate_id": 0,
+      "source_candidate_id": 0,
+      "frac_x": 0.0,
+      "frac_y": 0.0,
+      "frac_z": 0.5,
+      "cart_x_A": 0.0,
+      "cart_y_A": 0.0,
+      "cart_z_A": 3.010087,
+      "nearest_atom_center_A": 2.711451490997381,
+      "source_method": "grid",
+      "is_symmetry_representative": true
+    },
+    {
+      "candidate_id": 1,
+      "source_candidate_id": 1,
+      "frac_x": 0.0,
+      "frac_y": 0.16666666666666666,
+      "frac_z": 0.0,
+      "cart_x_A": -0.9323842499999995,
+      "cart_y_A": 1.614936893177002,
+      "cart_z_A": 1.1418413873379054e-16,
+      "nearest_atom_center_A": 1.7979096269968873,
+      "source_method": "grid",
+      "is_symmetry_representative": true
+    },
+    {
+      "candidate_id": 2,
+      "source_candidate_id": 2,
+      "frac_x": 0.0,
+      "frac_y": 0.5,
+      "frac_z": 0.0,
+      "cart_x_A": -2.7971527499999986,
+      "cart_y_A": 4.844810679531006,
+      "cart_z_A": 3.425524162013717e-16,
+      "nearest_atom_center_A": 1.78559042949,
+      "source_method": "grid",
+      "is_symmetry_representative": true
+    },
+    {
+      "candidate_id": 3,
+      "source_candidate_id": 3,
+      "frac_x": 0.0,
+      "frac_y": 0.6666666666666666,
+      "frac_z": 0.5,
+      "cart_x_A": -3.729536999999998,
+      "cart_y_A": 6.459747572708008,
+      "cart_z_A": 3.0100870000000004,
+      "nearest_atom_center_A": 2.552009269648945,
+      "source_method": "grid",
+      "is_symmetry_representative": true
+    },
+    {
+      "candidate_id": 4,
+      "source_candidate_id": 4,
+      "frac_x": 0.0,
+      "frac_y": 0.8333333333333334,
+      "frac_z": 0.0,
+      "cart_x_A": -4.661921249999998,
+      "cart_y_A": 8.074684465885012,
+      "cart_z_A": 5.709206936689528e-16,
+      "nearest_atom_center_A": 1.7979096269968877,
+      "source_method": "grid",
+      "is_symmetry_representative": true
+    },
+    {
+      "candidate_id": 5,
+      "source_candidate_id": 5,
+      "frac_x": 0.037037037037037035,
+      "frac_y": 0.5185185185185185,
+      "frac_z": 0.03333333333333333,
+      "cart_x_A": -2.4863579999999983,
+      "cart_y_A": 5.024248112106228,
+      "cart_z_A": 0.20067246666666705,
+      "nearest_atom_center_A": 1.8318207285671249,
+      "source_method": "grid",
+      "is_symmetry_representative": true
+    },
+    {
+      "candidate_id": 6,
+      "source_candidate_id": 6,
+      "frac_x": 0.05555555555555555,
+      "frac_y": 0.1111111111111111,
+      "frac_z": 0.43333333333333335,
+      "cart_x_A": 2.4421394227856927e-16,
+      "cart_y_A": 1.0766245954513347,
+      "cart_z_A": 2.6087420666666667,
+      "nearest_atom_center_A": 2.24306091789406,
+      "source_method": "grid",
+      "is_symmetry_representative": true
+    },
+    {
+      "candidate_id": 7,
+      "source_candidate_id": 7,
+      "frac_x": 0.05555555555555555,
+      "frac_y": 0.4444444444444444,
+      "frac_z": 0.26666666666666666,
+      "cart_x_A": -1.8647684999999987,
+      "cart_y_A": 4.306498381805339,
+      "cart_z_A": 1.6053797333333337,
+      "nearest_atom_center_A": 1.8292486498927087,
+      "source_method": "grid",
+      "is_symmetry_representative": true
+    },
+    {
+      "candidate_id": 8,
+      "source_candidate_id": 8,
+      "frac_x": 0.05555555555555555,
+      "frac_y": 0.7962962962962963,
+      "frac_z": 0.43333333333333335,
+      "cart_x_A": -3.833135249999998,
+      "cart_y_A": 7.715809600734565,
+      "cart_z_A": 2.608742066666667,
+      "nearest_atom_center_A": 2.1352793028176014,
+      "source_method": "grid",
+      "is_symmetry_representative": true
+    },
+    {
+      "candidate_id": 9,
+      "source_candidate_id": 9,
+      "frac_x": 0.07407407407407407,
+      "frac_y": 0.14814814814814814,
+      "frac_z": 0.4,
+      "cart_x_A": 3.626260238589309e-16,
+      "cart_y_A": 1.4354994606017797,
+      "cart_z_A": 2.4080696,
+      "nearest_atom_center_A": 2.1698358036407543,
+      "source_method": "grid",
+      "is_symmetry_representative": true
+    },
+    {
+      "candidate_id": 10,
+      "source_candidate_id": 10,
+      "frac_x": 0.07407407407407407,
+      "frac_y": 0.8148148148148148,
+      "frac_z": 0.2,
+      "cart_x_A": -3.7295369999999974,
+      "cart_y_A": 7.895247033309788,
+      "cart_z_A": 1.2040348000000007,
+      "nearest_atom_center_A": 1.915674755321816,
+      "source_method": "grid",
+      "is_symmetry_representative": true
+    },
+    {
+      "candidate_id": 11,
+      "source_candidate_id": 11,
+      "frac_x": 0.09259259259259259,
+      "frac_y": 0.18518518518518517,
+      "frac_z": 0.4,
+      "cart_x_A": 5.920604079018082e-16,
+      "cart_y_A": 1.7943743257522244,
+      "cart_z_A": 2.4080696,
+      "nearest_atom_center_A": 2.22660572174327,
+      "source_method": "grid",
+      "is_symmetry_representative": true
+    },
+    {
+      "candidate_id": 14,
+      "source_candidate_id": 14,
+      "frac_x": 0.1111111111111111,
+      "frac_y": 0.2222222222222222,
+      "frac_z": 0.13333333333333333,
+      "cart_x_A": 4.884278845571385e-16,
+      "cart_y_A": 2.1532491909026694,
+      "cart_z_A": 0.8026898666666669,
+      "nearest_atom_center_A": 2.22552622053055,
+      "source_method": "grid",
+      "is_symmetry_representative": true
+    },
+    {
+      "candidate_id": 15,
+      "source_candidate_id": 15,
+      "frac_x": 0.1111111111111111,
+      "frac_y": 0.5555555555555556,
+      "frac_z": 0.13333333333333333,
+      "cart_x_A": -1.8647684999999987,
+      "cart_y_A": 5.383122977256674,
+      "cart_z_A": 0.8026898666666671,
+      "nearest_atom_center_A": 2.221987154883955,
+      "source_method": "grid",
+      "is_symmetry_representative": true
+    },
+    {
+      "candidate_id": 16,
+      "source_candidate_id": 16,
+      "frac_x": 0.1111111111111111,
+      "frac_y": 0.5555555555555556,
+      "frac_z": 0.36666666666666664,
+      "cart_x_A": -1.8647684999999987,
+      "cart_y_A": 5.383122977256674,
+      "cart_z_A": 2.2073971333333335,
+      "nearest_atom_center_A": 2.2233188084447923,
+      "source_method": "grid",
+      "is_symmetry_representative": true
+    },
+    {
+      "candidate_id": 20,
+      "source_candidate_id": 20,
+      "frac_x": 0.14814814814814814,
+      "frac_y": 0.7407407407407407,
+      "frac_z": 0.6,
+      "cart_x_A": -2.486357999999998,
+      "cart_y_A": 7.177497303008898,
+      "cart_z_A": 3.6121044,
+      "nearest_atom_center_A": 2.1021772337296247,
+      "source_method": "grid",
+      "is_symmetry_representative": true
+    },
+    {
+      "candidate_id": 25,
+      "source_candidate_id": 25,
+      "frac_x": 0.18518518518518517,
+      "frac_y": 0.5925925925925926,
+      "frac_z": 0.1,
+      "cart_x_A": -1.243178999999998,
+      "cart_y_A": 5.741997842407119,
+      "cart_z_A": 0.6020174000000006,
+      "nearest_atom_center_A": 2.1734797372441093,
+      "source_method": "grid",
+      "is_symmetry_representative": true
+    },
+    {
+      "candidate_id": 26,
+      "source_candidate_id": 26,
+      "frac_x": 0.18518518518518517,
+      "frac_y": 0.9259259259259259,
+      "frac_z": 0.2,
+      "cart_x_A": -3.1079474999999976,
+      "cart_y_A": 8.971871628761123,
+      "cart_z_A": 1.2040348000000007,
+      "nearest_atom_center_A": 1.9156747553218163,
+      "source_method": "grid",
+      "is_symmetry_representative": true
+    },
+    {
+      "candidate_id": 29,
+      "source_candidate_id": 29,
+      "frac_x": 0.2222222222222222,
+      "frac_y": 0.4444444444444444,
+      "frac_z": 0.6333333333333333,
+      "cart_x_A": 9.76855769114277e-16,
+      "cart_y_A": 4.306498381805339,
+      "cart_z_A": 3.812776866666667,
+      "nearest_atom_center_A": 2.195783579614632,
+      "source_method": "grid",
+      "is_symmetry_representative": true
+    },
+    {
+      "candidate_id": 30,
+      "source_candidate_id": 30,
+      "frac_x": 0.2222222222222222,
+      "frac_y": 0.4444444444444444,
+      "frac_z": 0.9,
+      "cart_x_A": 9.76855769114277e-16,
+      "cart_y_A": 4.306498381805339,
+      "cart_z_A": 5.4181566000000005,
+      "nearest_atom_center_A": 2.2194206014862736,
+      "source_method": "grid",
+      "is_symmetry_representative": true
+    },
+    {
+      "candidate_id": 31,
+      "source_candidate_id": 31,
+      "frac_x": 0.2222222222222222,
+      "frac_y": 0.6111111111111112,
+      "frac_z": 0.06666666666666667,
+      "cart_x_A": -0.932384249999999,
+      "cart_y_A": 5.921435274982342,
+      "cart_z_A": 0.4013449333333339,
+      "nearest_atom_center_A": 2.209791121411944,
+      "source_method": "grid",
+      "is_symmetry_representative": true
+    },
+    {
+      "candidate_id": 34,
+      "source_candidate_id": 34,
+      "frac_x": 0.2222222222222222,
+      "frac_y": 0.9444444444444444,
+      "frac_z": 0.23333333333333334,
+      "cart_x_A": -2.7971527499999977,
+      "cart_y_A": 9.151309061336345,
+      "cart_z_A": 1.4047072666666676,
+      "nearest_atom_center_A": 1.8127992065268568,
+      "source_method": "grid",
+      "is_symmetry_representative": true
+    },
+    {
+      "candidate_id": 35,
+      "source_candidate_id": 35,
+      "frac_x": 0.24074074074074073,
+      "frac_y": 0.48148148148148145,
+      "frac_z": 0.9,
+      "cart_x_A": 1.31731245561967e-15,
+      "cart_y_A": 4.665373246955784,
+      "cart_z_A": 5.4181566000000005,
+      "nearest_atom_center_A": 2.2176372646546247,
+      "source_method": "grid",
+      "is_symmetry_representative": true
+    },
+    {
+      "candidate_id": 38,
+      "source_candidate_id": 38,
+      "frac_x": 0.25925925925925924,
+      "frac_y": 0.5185185185185185,
+      "frac_z": 0.7333333333333333,
+      "cart_x_A": 1.2136799322750003e-15,
+      "cart_y_A": 5.024248112106228,
+      "cart_z_A": 4.414794266666667,
+      "nearest_atom_center_A": 1.9355479838753957,
+      "source_method": "grid",
+      "is_symmetry_representative": true
+    },
+    {
+      "candidate_id": 39,
+      "source_candidate_id": 39,
+      "frac_x": 0.25925925925925924,
+      "frac_y": 0.5185185185185185,
+      "frac_z": 0.9333333333333333,
+      "cart_x_A": 1.2136799322750003e-15,
+      "cart_y_A": 5.024248112106228,
+      "cart_z_A": 5.618829066666668,
+      "nearest_atom_center_A": 2.152619712907197,
+      "source_method": "grid",
+      "is_symmetry_representative": true
+    },
+    {
+      "candidate_id": 40,
+      "source_candidate_id": 40,
+      "frac_x": 0.2962962962962963,
+      "frac_y": 0.5925925925925926,
+      "frac_z": 0.9666666666666667,
+      "cart_x_A": 1.4505040954357236e-15,
+      "cart_y_A": 5.741997842407119,
+      "cart_z_A": 5.819501533333334,
+      "nearest_atom_center_A": 2.3350768036494665,
+      "source_method": "grid",
+      "is_symmetry_representative": true
+    },
+    {
+      "candidate_id": 42,
+      "source_candidate_id": 42,
+      "frac_x": 0.3333333333333333,
+      "frac_y": 0.6666666666666666,
+      "frac_z": 0.0,
+      "cart_x_A": 1.687328258596447e-15,
+      "cart_y_A": 6.459747572708008,
+      "cart_z_A": 6.851048324027433e-16,
+      "nearest_atom_center_A": 2.6624910278112366,
+      "source_method": "grid",
+      "is_symmetry_representative": true
+    },
+    {
+      "candidate_id": 43,
+      "source_candidate_id": 43,
+      "frac_x": 0.3888888888888889,
+      "frac_y": 0.4444444444444444,
+      "frac_z": 0.43333333333333335,
+      "cart_x_A": 1.8647685000000016,
+      "cart_y_A": 4.306498381805339,
+      "cart_z_A": 2.608742066666667,
+      "nearest_atom_center_A": 2.112208179654748,
+      "source_method": "grid",
+      "is_symmetry_representative": true
+    },
+    {
+      "candidate_id": 45,
+      "source_candidate_id": 45,
+      "frac_x": 0.4074074074074074,
+      "frac_y": 0.48148148148148145,
+      "frac_z": 0.4,
+      "cart_x_A": 1.8647685000000012,
+      "cart_y_A": 4.665373246955784,
+      "cart_z_A": 2.4080696000000006,
+      "nearest_atom_center_A": 2.0625527640712717,
+      "source_method": "grid",
+      "is_symmetry_representative": true
+    },
+    {
+      "candidate_id": 48,
+      "source_candidate_id": 48,
+      "frac_x": 0.42592592592592593,
+      "frac_y": 0.5185185185185185,
+      "frac_z": 0.4,
+      "cart_x_A": 1.8647685000000014,
+      "cart_y_A": 5.024248112106228,
+      "cart_z_A": 2.4080696000000006,
+      "nearest_atom_center_A": 2.1362103638088903,
+      "source_method": "grid",
+      "is_symmetry_representative": true
+    },
+    {
+      "candidate_id": 128,
+      "source_candidate_id": 2,
+      "frac_x": 0.12308106054777483,
+      "frac_y": 0.22174008442772386,
+      "frac_z": 0.39008361214716797,
+      "cart_x_A": 0.13662433405202012,
+      "cart_y_A": 2.1485774582310873,
+      "cart_z_A": 2.348371219674465,
+      "nearest_atom_center_A": 2.254103308923629,
+      "source_method": "voronoi",
+      "is_symmetry_representative": true
+    },
+    {
+      "candidate_id": 129,
+      "source_candidate_id": 3,
+      "frac_x": 0.33340800193395265,
+      "frac_y": 0.33026116689801893,
+      "frac_z": 0.3753430418564908,
+      "cart_x_A": 1.8827905755122394,
+      "cart_y_A": 3.2001056568437884,
+      "cart_z_A": 2.259630421665358,
+      "nearest_atom_center_A": 2.2618720581296707,
+      "source_method": "voronoi",
+      "is_symmetry_representative": true
+    },
+    {
+      "candidate_id": 143,
+      "source_candidate_id": 17,
+      "frac_x": 0.10738270024904209,
+      "frac_y": 0.2147654004980841,
+      "frac_z": 0.35143246307026155,
+      "cart_x_A": 1.0985002160708031e-15,
+      "cart_y_A": 2.0809954118537433,
+      "cart_z_A": 2.115684576931549,
+      "nearest_atom_center_A": 2.2513030968101906,
+      "source_method": "voronoi",
+      "is_symmetry_representative": true
+    },
+    {
+      "candidate_id": 148,
+      "source_candidate_id": 22,
+      "frac_x": 0.10972577819717766,
+      "frac_y": 0.3898342094597764,
+      "frac_z": 0.7493887785254929,
+      "cart_x_A": -0.9531726131484761,
+      "cart_y_A": 3.777345882474504,
+      "cart_z_A": 4.511450840370931,
+      "nearest_atom_center_A": 1.8467120335698748,
+      "source_method": "voronoi",
+      "is_symmetry_representative": true
+    },
+    {
+      "candidate_id": 176,
+      "source_candidate_id": 50,
+      "frac_x": 0.33333333333333337,
+      "frac_y": 0.6666666666666666,
+      "frac_z": 0.10758054037983301,
+      "cart_x_A": 2.575506678296572e-15,
+      "cart_y_A": 6.459747572708008,
+      "cart_z_A": 0.6476535721006215,
+      "nearest_atom_center_A": 2.3889221934993783,
+      "source_method": "voronoi",
+      "is_symmetry_representative": true
+    },
+    {
+      "candidate_id": 182,
+      "source_candidate_id": 56,
+      "frac_x": 0.33333333333333337,
+      "frac_y": 0.6666666666666666,
+      "frac_z": 0.8983042315659708,
+      "cart_x_A": 2.575506678296572e-15,
+      "cart_y_A": 6.459747572708008,
+      "cart_z_A": 5.407947778963438,
+      "nearest_atom_center_A": 2.371372013363437,
+      "source_method": "voronoi",
+      "is_symmetry_representative": true
+    },
+    {
+      "candidate_id": 213,
+      "source_candidate_id": 87,
+      "frac_x": 2.4698529272380827e-19,
+      "frac_y": 0.9999999999999999,
+      "frac_z": 0.40023054374307254,
+      "cart_x_A": -5.594305499999996,
+      "cart_y_A": 9.689621359062011,
+      "cart_z_A": 2.409457513447909,
+      "nearest_atom_center_A": 2.409457513447907,
+      "source_method": "voronoi",
+      "is_symmetry_representative": true
+    }
+  ]
+}

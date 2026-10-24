@@ -1,0 +1,55 @@
+{
+  "focused_checks_passed": true,
+  "baseline_files_unchanged": true,
+  "structures": [
+    {
+      "structure": "LATP_sc_integer152_stoichiometric",
+      "saved_candidates_only": true,
+      "fixed_coordinates": true,
+      "occupied_group_coverage": true,
+      "cif_counts_match": true
+    },
+    {
+      "structure": "LLZO_cub_ga",
+      "saved_candidates_only": true,
+      "fixed_coordinates": true,
+      "occupied_group_coverage": true,
+      "cif_counts_match": true
+    },
+    {
+      "structure": "Li10Ge(PS6)2",
+      "saved_candidates_only": true,
+      "fixed_coordinates": true,
+      "occupied_group_coverage": true,
+      "cif_counts_match": true
+    },
+    {
+      "structure": "Li3PO4",
+      "saved_candidates_only": true,
+      "fixed_coordinates": true,
+      "occupied_group_coverage": true,
+      "cif_counts_match": true
+    },
+    {
+      "structure": "LiCl",
+      "saved_candidates_only": true,
+      "fixed_coordinates": true,
+      "occupied_group_coverage": true,
+      "cif_counts_match": true
+    },
+    {
+      "structure": "LiCl_one_Li_vacancy",
+      "saved_candidates_only": true,
+      "fixed_coordinates": true,
+      "occupied_group_coverage": true,
+      "cif_counts_match": true
+    },
+    {
+      "structure": "Li3PO4_one_Li_vacancy",
+      "saved_candidates_only": true,
+      "fixed_coordinates": true,
+      "occupied_group_coverage": true,
+      "cif_counts_match": true
+    }
+  ]
+}

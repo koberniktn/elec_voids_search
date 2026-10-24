@@ -1,0 +1,18 @@
+{
+  "copied_functions_unchanged": 9,
+  "structures_tested": 7,
+  "generation_matches_previous_results": true,
+  "source_ids_preserved": true,
+  "vacancy_checks": [
+    {
+      "structure": "LiCl_one_Li_vacancy",
+      "nearest_vacancy_A": 0.1524637922630001,
+      "recovered": true
+    },
+    {
+      "structure": "Li3PO4_one_Li_vacancy",
+      "nearest_vacancy_A": 0.18517336525137587,
+      "recovered": true
+    }
+  ]
+}
