@@ -8,3 +8,6 @@ __pycache__/
 # В GitHub публикуем только основную галерею
 /examples/full_pipeline/voids_gallery_*/
 /examples/full_pipeline/voids_gallery/checks.json
+
+# Локальный ноутбук загрузки структур
+/download_cifs.ipynb
