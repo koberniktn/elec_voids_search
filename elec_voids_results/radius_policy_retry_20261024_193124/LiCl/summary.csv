@@ -1,2 +1,0 @@
-structure_file,formula,space_group,n_grid_candidates,n_voronoi_raw_vertices,n_voronoi_candidates,n_combined_candidates,n_merged_candidates,n_symmetry_nonequivalent_candidates,n_geometry_passed,n_geometry_unique,n_geometry_indeterminate,n_geometry_rejected,n_geometry_retained,n_full_radius_passed,probe_element,probe_oxidation_state,geometry_minimum_fit_fraction,grid_resolution_A,merge_distance_A,merge_representative,symprec_A,symmetry_tolerance_A
-LiCl.cif,LiCl,P6_3mc,16,10,10,26,18,5,2,2,0,3,2,2,Li,1,1.0,0.2,0.1,voronoi,0.1,0.1

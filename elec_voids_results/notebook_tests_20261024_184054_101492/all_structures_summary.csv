@@ -1,8 +1,0 @@
-structure_file,formula,space_group,n_grid_candidates,n_voronoi_raw_vertices,n_voronoi_candidates,n_combined_candidates,n_merged_candidates,n_symmetry_nonequivalent_candidates,n_geometry_passed,n_geometry_indeterminate,n_geometry_rejected,n_geometry_retained,n_full_radius_passed,probe_element,probe_oxidation_state,geometry_minimum_fit_fraction,grid_resolution_A,merge_distance_A,merge_representative,symprec_A,symmetry_tolerance_A,elapsed_seconds,n_geometry_unique
-LATP_sc_integer152_stoichiometric.cif,Li5Ti7Al(PO4)12,Pc,278,936,936,1214,916,460,197,179,84,376,197,Li,1,1.0,0.2,0.1,voronoi,0.1,0.1,94.88368409399844,108
-LLZO_cub_ga.cif,Li25La12Zr8GaO48,P1,519,1271,1271,1790,1404,1404,0,1235,169,1235,0,Li,1,1.0,0.2,0.1,voronoi,0.1,0.1,216.3390280770036,0
-Li10Ge(PS6)2.cif,Li10Ge(PS6)2,P4_2mc,76,330,330,406,344,55,0,52,3,52,0,Li,1,1.0,0.2,0.1,voronoi,0.1,0.1,18.44180368399975,0
-Li3PO4.cif,Li3PO4,Pmn2_1,24,116,116,140,90,28,5,19,4,24,5,Li,1,1.0,0.2,0.1,voronoi,0.1,0.1,11.628341317002196,2
-LiCl.cif,LiCl,P6_3mc,16,10,10,26,18,5,0,5,0,5,0,Li,1,1.0,0.2,0.1,voronoi,0.1,0.1,1.4611003849931876,0
-LiCl_one_Li_vacancy.cif,LiCl2,P3m1,19,11,11,30,27,16,0,16,0,16,0,Li,1,1.0,0.2,0.1,voronoi,0.1,0.1,2.205312745994888,0
-Li3PO4_one_Li_vacancy.cif,Li5(PO4)2,Pm,26,104,104,130,94,60,13,31,16,44,13,Li,1,1.0,0.2,0.1,voronoi,0.1,0.1,17.092555462004384,6

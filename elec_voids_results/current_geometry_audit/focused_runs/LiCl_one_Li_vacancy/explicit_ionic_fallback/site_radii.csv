@@ -1,4 +1,0 @@
-site_index,element,coordination,oxidation_state,atomic_radius_A,ionic_radius_A,shannon_radius_A,radius_A,radius_source,radius_issue,radius_warning
-0,Li,4,1.0,1.45,0.9,0.59,0.59,shannon,,
-1,Cl,3,-1.0,1.0,1.67,,1.67,standard_ionic_fallback,,
-2,Cl,1,-1.0,1.0,1.67,,1.67,standard_ionic_fallback,,

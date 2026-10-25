@@ -1,8 +1,0 @@
-structure,n_host_unknown,n_probe_unknown_final,unknown_host_types
-LATP_sc_integer152_stoichiometric,0,179,{}
-LLZO_cub_ga,21,899,"{('O', 5, -2): 12, ('O', 7, -2): 7, ('Li', 3, 1): 2}"
-Li10Ge(PS6)2,24,31,"{('Li', 5, 1): 8, ('P', 4, 4): 4, ('S', 3, -2): 4, ('S', 4, -2): 4, ('S', 6, -1): 4}"
-Li3PO4,0,19,{}
-Li3PO4_one_Li_vacancy,0,31,{}
-LiCl,2,2,"{('Cl', 4, -1.0): 2}"
-LiCl_one_Li_vacancy,2,3,"{('Cl', 1, -1.0): 1, ('Cl', 3, -1.0): 1}"

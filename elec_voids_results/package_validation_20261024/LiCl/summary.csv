@@ -1,2 +1,0 @@
-structure_file,formula,space_group,n_grid_candidates,n_voronoi_raw_vertices,n_voronoi_candidates,n_combined_candidates,n_symmetry_nonequivalent_candidates,grid_resolution_A,symprec_A,symmetry_tolerance_A
-LiCl.cif,LiCl,P6_3mc,16,10,10,26,5,0.2,0.1,0.25

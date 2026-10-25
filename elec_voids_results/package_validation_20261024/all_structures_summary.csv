@@ -1,8 +1,0 @@
-structure_file,formula,space_group,n_grid_candidates,n_voronoi_raw_vertices,n_voronoi_candidates,n_combined_candidates,n_symmetry_nonequivalent_candidates,grid_resolution_A,symprec_A,symmetry_tolerance_A
-LATP_sc_integer152_stoichiometric.cif,Li5Ti7Al(PO4)12,Pc,278,936,924,1202,350,0.2,0.1,0.25
-LLZO_cub_ga.cif,Li25La12Zr8GaO48,P1,519,1271,1271,1790,944,0.2,0.1,0.25
-Li3PO4.cif,Li3PO4,Pmn2_1,24,116,116,140,23,0.2,0.1,0.25
-LiCl.cif,LiCl,P6_3mc,16,10,10,26,5,0.2,0.1,0.25
-LYC.cif,Li3YCl6,P321,126,153,153,279,37,0.2,0.1,0.25
-LiCl_one_Li_vacancy.cif,LiCl2,P3m1,19,11,11,30,13,0.2,0.1,0.25
-Li3PO4_one_Li_vacancy.cif,Li5(PO4)2,Pm,26,104,104,130,48,0.2,0.1,0.25

@@ -1,5 +1,0 @@
-site_index,element,coordination,oxidation_state,atomic_radius_A,ionic_radius_A,shannon_radius_A,radius_A,radius_source,radius_issue,radius_warning
-0,Li,4,1.0,1.45,0.9,0.59,0.59,shannon,,
-1,Li,4,1.0,1.45,0.9,0.59,0.59,shannon,,
-2,Cl,4,-1.0,1.0,1.67,,,unresolved,Нет радиуса Шеннона и стандартного ионного радиуса,
-3,Cl,4,-1.0,1.0,1.67,,,unresolved,Нет радиуса Шеннона и стандартного ионного радиуса,

@@ -1,7 +1,0 @@
-structure,stage,nearest_known_vacancy_A,recovered_0p25_A
-LiCl_one_Li_vacancy,probe_distance_evaluated,0.00016555911895022035,True
-LiCl_one_Li_vacancy,probe_distance_passed,0.00016555911895022035,True
-LiCl_one_Li_vacancy,probe_distance_rejected,2.4056325960930183,False
-Li3PO4_one_Li_vacancy,probe_distance_evaluated,0.04215082154977433,True
-Li3PO4_one_Li_vacancy,probe_distance_passed,0.04215082154977433,True
-Li3PO4_one_Li_vacancy,probe_distance_rejected,1.4420780107377031,False

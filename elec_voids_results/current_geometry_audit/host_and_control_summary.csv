@@ -1,8 +1,0 @@
-structure,n_atoms,n_unknown_host_radii,n_occupied_controls,n_control_pass,n_control_reject,n_control_indeterminate
-LATP_sc_integer152_stoichiometric,146,0,10,8,2,0
-LLZO_cub_ga,188,21,50,0,47,3
-Li10Ge(PS6)2,50,24,20,0,8,12
-Li3PO4,16,0,6,0,6,0
-LiCl,4,2,2,0,0,2
-LiCl_one_Li_vacancy,3,2,1,0,0,1
-Li3PO4_one_Li_vacancy,15,0,5,0,5,0

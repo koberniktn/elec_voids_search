@@ -1,5 +1,0 @@
-structure_file,formula,space_group,n_grid_candidates,n_voronoi_raw_vertices,n_voronoi_candidates,n_combined_candidates,n_merged_candidates,n_symmetry_nonequivalent_candidates,n_geometry_passed,n_geometry_unique,n_geometry_indeterminate,n_geometry_rejected,n_geometry_retained,n_full_radius_passed,probe_element,probe_oxidation_state,geometry_minimum_fit_fraction,grid_resolution_A,merge_distance_A,merge_representative,symprec_A,symmetry_tolerance_A,elapsed_seconds,structure
-LLZO_cub_ga.cif,Li25La12Zr8GaO48,P1,519,1271,1271,1790,1404,1404,386,149,0,1018,386,386,Li,1,1.0,0.2,0.1,voronoi,0.1,0.1,130.77957700299885,LLZO_cub_ga
-Li10Ge(PS6)2.cif,Li10Ge(PS6)2,P4_2mc,76,330,330,406,344,55,14,10,0,41,14,14,Li,1,1.0,0.2,0.1,voronoi,0.1,0.1,15.341997264004021,Li10Ge(PS6)2
-LiCl.cif,LiCl,P6_3mc,16,10,10,26,18,5,2,2,0,3,2,2,Li,1,1.0,0.2,0.1,voronoi,0.1,0.1,1.4639277520036558,LiCl
-LiCl_one_Li_vacancy.cif,LiCl2,P3m1,19,11,11,30,27,16,3,3,0,13,3,3,Li,1,1.0,0.2,0.1,voronoi,0.1,0.1,1.6452296079951338,LiCl_one_Li_vacancy

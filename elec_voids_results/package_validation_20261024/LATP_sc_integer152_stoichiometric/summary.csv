@@ -1,2 +1,0 @@
-structure_file,formula,space_group,n_grid_candidates,n_voronoi_raw_vertices,n_voronoi_candidates,n_combined_candidates,n_symmetry_nonequivalent_candidates,grid_resolution_A,symprec_A,symmetry_tolerance_A
-LATP_sc_integer152_stoichiometric.cif,Li5Ti7Al(PO4)12,Pc,278,936,924,1202,350,0.2,0.1,0.25

@@ -1,5 +1,0 @@
-site_index,element,coordination,oxidation_state,atomic_radius_A,ionic_radius_A,shannon_radius_A,radius_A,radius_source,radius_requested_coordination,radius_reference_coordinations,radius_reference_values_A,radius_reference_spins,radius_approximate,radius_convention,oxidation_source,radius_issue,radius_warning
-0,Li,4,1.0,1.45,0.9,0.59,0.59,shannon_exact,4,[4],[0.59],[],False,Shannon effective ionic,user,,
-1,Li,4,1.0,1.45,0.9,0.59,0.59,shannon_exact,4,[4],[0.59],[],False,Shannon effective ionic,user,,
-2,Cl,4,-1.0,1.0,1.67,,1.81,shannon_nearest_cn,4,[6],[1.81],[''],True,Shannon effective ionic,user,,
-3,Cl,4,-1.0,1.0,1.67,,1.81,shannon_nearest_cn,4,[6],[1.81],[''],True,Shannon effective ionic,user,,
