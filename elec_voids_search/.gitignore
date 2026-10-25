@@ -1,2 +1,10 @@
 __pycache__/
 *.pyc
+
+# Публичный справочник параметров; остальные документы остаются локально
+/docs/*
+!/docs/PARAMETERS.md
+
+# Локальная проверка совпадения с сохранённым прогоном
+/tests/pipeline_regression_report.json
+/tests/verify_saved_pipeline.py

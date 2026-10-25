@@ -1,0 +1,48 @@
+"""Необязательное объединение вокруг представителей без цепочек близких точек."""
+import math
+import numpy as np
+
+
+def representative_order(table, representative='largest_center_distance'):
+    """Задаём порядок выбора представителей по указанному приоритету"""
+
+    if representative == 'largest_center_distance':
+        return sorted(range(len(table)), key=lambda i: (-float(table.iloc[i].nearest_atom_center_A), i))
+
+    if representative in {'grid', 'voronoi'}:
+        return sorted(range(len(table)), key=lambda i: (table.iloc[i].source_method != representative, i))
+
+    if representative == 'first':
+        return list(range(len(table)))
+    raise ValueError('Unknown representative policy')
+
+
+def representative_ball_groups(structure, positions, distance, priority):
+    """Собираем вокруг каждого представителя только его прямых соседей.
+
+    Представителей выбираем в порядке priority. Каждая поглощённая точка
+    находится строго ближе distance к своему представителю с учётом
+    периодических границ. Транзитивные цепочки здесь не объединяются.
+    Возвращаем группы индексов; distance=None оставляет каждую точку отдельно."""
+
+    positions = np.asarray(positions, dtype=float).reshape(-1, 3)
+
+    if distance is None:
+        return [[i] for i in range(len(positions))]
+
+    if not math.isfinite(distance) or distance <= 0:
+        raise ValueError('distance must be None or finite and positive')
+
+    remaining = np.ones(len(positions), dtype=bool)
+    groups = []
+
+    for chosen in priority:
+        if not remaining[chosen]:
+            continue
+        indices = np.flatnonzero(remaining)
+        distances = structure.lattice.get_all_distances([positions[chosen]], positions[indices])[0]
+        members = indices[distances < distance].tolist()
+        groups.append(members)
+        remaining[members] = False
+
+    return groups

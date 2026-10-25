@@ -1,0 +1,10 @@
+# Служебные файлы macOS, Python и Jupyter
+.DS_Store
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# В GitHub публикуем только основную галерею
+/examples/full_pipeline/voids_gallery_*/
+/examples/full_pipeline/voids_gallery/checks.json

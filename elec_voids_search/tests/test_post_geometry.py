@@ -10,13 +10,13 @@ import numpy as np
 import pandas as pd
 from pymatgen.core import Lattice, Structure
 
-from elec_voids_search.framework_voronoi import framework_voronoi_neighbors, FrameworkVoronoiError
-from elec_voids_search.voronoi_coordination_config import VoronoiCoordinationConfig
-from elec_voids_search.weighted_voronoi import (describe_weighted_voronoi,compare_weighted_voronoi,
+from elec_voids_search.descriptors.framework_voronoi import framework_voronoi_neighbors, FrameworkVoronoiError
+from elec_voids_search.filtering.voronoi_coordination_config import VoronoiCoordinationConfig
+from elec_voids_search.filtering.weighted_voronoi import (describe_weighted_voronoi,compare_weighted_voronoi,
                                                WeightedVoronoiMatcher)
-from elec_voids_search.post_geometry import screen_geometry_candidates
-from elec_voids_search.post_geometry_config import PostGeometryConfig
-from elec_voids_search.screening_pipeline import continue_from_saved_geometry
+from elec_voids_search.filtering.post_geometry import screen_geometry_candidates
+from elec_voids_search.filtering.post_geometry_config import PostGeometryConfig
+from elec_voids_search.tools.saved_screening import continue_from_saved_geometry
 
 
 class FrameworkVoronoiTests(TestCase):
@@ -153,8 +153,8 @@ class BranchRoutingTests(TestCase):
         self.separation = separation
 
     def run_paths(self,paths):
-        with patch('elec_voids_search.post_geometry.WeightedVoronoiMatcher',self.matcher), \
-             patch('elec_voids_search.post_geometry.screen_probe_separation',self.separation):
+        with patch('elec_voids_search.filtering.post_geometry.WeightedVoronoiMatcher',self.matcher), \
+             patch('elec_voids_search.filtering.post_geometry.screen_probe_separation',self.separation):
             return screen_geometry_candidates(self.host,self.candidates,{'Li':1,'O':-2},
                                                PostGeometryConfig(paths=paths))
 
@@ -192,9 +192,9 @@ class BranchRoutingTests(TestCase):
             saved = self.candidates.copy();saved['in_geometry'] = [True,True,False,False]
             saved['probe_distance_status'] = 'rejected'
             saved.to_csv(folder/'candidates.csv',index=False)
-            with patch('elec_voids_search.screening_pipeline.Structure.from_file',return_value=self.host), \
-                 patch('elec_voids_search.screening_pipeline.run_search',side_effect=AssertionError('No rerun')), \
-                 patch('elec_voids_search.screening_pipeline.screen_geometry_candidates',return_value={}) as function:
+            with patch('elec_voids_search.tools.saved_screening.Structure.from_file',return_value=self.host), \
+                 patch('elec_voids_search.screening_pipeline.find_candidate_sites',side_effect=AssertionError('No rerun')), \
+                 patch('elec_voids_search.tools.saved_screening.screen_geometry_candidates',return_value={}) as function:
                 result = continue_from_saved_geometry(source,folder/'candidates.csv',{'Li':1,'O':-2})
             self.assertEqual(function.call_args.args[1].candidate_id.tolist(),[1,2])
             self.assertFalse(result['provenance']['previous_stages_rerun'])
