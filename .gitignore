@@ -14,3 +14,7 @@ __pycache__/
 
 # Локальные результаты исследовательских прогонов
 /elec_voids_results/
+
+# Локальные эксперименты вне основного примера
+/examples/full_pipeline/occupied_geometry_calibration.ipynb
+/examples/full_pipeline/refresh_coordination.py
