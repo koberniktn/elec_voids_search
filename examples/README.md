@@ -5,6 +5,7 @@
 - Входные CIF — [full_pipeline/inputs/](full_pipeline/inputs/).
 - Ноутбук запуска — [full_pipeline.ipynb](full_pipeline/full_pipeline.ipynb).
 - Итоговая таблица по этапам — [summary.csv](full_pipeline/voids_gallery/summary.csv).
+- Нормированная на формульную единицу таблица — [summary_norm.csv](full_pipeline/voids_gallery/summary_norm.csv).
 - Таблица шагов финальных фильтров — [branch_steps.csv](full_pipeline/voids_gallery/branch_steps.csv).
 - Координаты и CIF для визуализации — [voids_gallery/](full_pipeline/voids_gallery/): внутри каждой папки соединения находятся `candidates.csv` и `cif/`.
 

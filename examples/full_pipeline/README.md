@@ -5,6 +5,7 @@
 - **Входные структуры:** [inputs/](inputs/).
 - **Запуск расчёта:** [full_pipeline.ipynb](full_pipeline.ipynb). В ноутбуке задаются ручные степени окисления и параметры поиска.
 - **Итоговые количества по этапам:** [voids_gallery/summary.csv](voids_gallery/summary.csv).
+- **Количества на формульную единицу:** [voids_gallery/summary_norm.csv](voids_gallery/summary_norm.csv).
 - **Шаги координационного и Li–Li-фильтров:** [voids_gallery/branch_steps.csv](voids_gallery/branch_steps.csv).
 - **Координаты кандидатов:** `voids_gallery/<имя_структуры>/candidates.csv`.
 - **Визуализации:** `voids_gallery/<имя_структуры>/cif/` — каркас и X-маркеры кандидатов после каждого этапа, для просмотра в VESTA.
