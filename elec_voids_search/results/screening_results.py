@@ -34,17 +34,23 @@ def screening_tables(results):
     if not results:
         raise ValueError('At least one screening result is required')
 
-    summaries, steps, structures = [], [], {}
+    summaries, normalized, steps, structures = [], [], [], {}
 
     for name, result in results.items():
         if not isinstance(name, str) or name in {'.', '..'} or '/' in name or '\\' in name or not name:
             raise ValueError('Structure names must be simple folder names')
 
         search, post = result['search'], result['post_geometry']
+        host = result.get('structure')
+        if host is None:
+            source = post['provenance']['structure_file']
+            host = Structure.from_file(source)
+        composition = host.composition
+        _, formula_units = composition.get_reduced_composition_and_factor()
         stages = {name: search[key] for name, key in SEARCH_STAGES.items()}
         row = dict(zip(
-            ['Соединение', 'Сетка', 'Вороной', 'Объединено', 'Кластеры', 'Симметрия', 'Геометрия'],
-            [name] + [len(table) for table in stages.values()],
+            ['Соединение', 'Формула', 'Сетка', 'Вороной', 'Объединено', 'Кластеры', 'Симметрия', 'Геометрия'],
+            [name, composition.formula] + [len(table) for table in stages.values()],
         ))
         canonical = {
             ('coordination',): ('07_coordination', 'Координация'),
@@ -78,11 +84,16 @@ def screening_tables(results):
         branch_steps.insert(0, 'structure', name)
         steps.append(branch_steps)
         summaries.append(row)
+        normalized.append({
+            key: value if key in {'Соединение', 'Формула'} else value / formula_units
+            for key, value in row.items()
+        })
         structures[name] = dict(stages=stages, candidates=candidates, result=result)
 
     return dict(
         results=results,
         summary=pd.DataFrame(summaries),
+        summary_norm=pd.DataFrame(normalized),
         branch_steps=pd.concat(steps, ignore_index=True),
         structures=structures,
     )
@@ -141,6 +152,7 @@ def export_screening_results(results, output_dir, export_cif=True, run_notes=Non
         )
 
     report['summary'].to_csv(output / 'summary.csv', index=False)
+    report['summary_norm'].to_csv(output / 'summary_norm.csv', index=False)
     report['branch_steps'].to_csv(output / 'branch_steps.csv', index=False)
     (output / 'metadata.json').write_text(json.dumps(metadata, ensure_ascii=False, indent=2) + '\n')
     report['output_dir'] = output
